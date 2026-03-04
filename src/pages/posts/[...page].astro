@@ -1,0 +1,32 @@
+---
+import type { GetStaticPaths } from "astro";
+import Main from "@/layouts/Main.astro";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Card from "@/components/Card.astro";
+import Pagination from "@/components/Pagination.astro";
+import { getPosts, getPublication } from "@/utils/hashnode";
+import { SITE } from "@/config";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = await getPosts(); // Default is 50, which is the max
+  return paginate(posts, { pageSize: SITE.postPerPage });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const publication = await getPublication();
+---
+
+<Layout title={`Posts | ${publication.title}`}>
+  <Header />
+  <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
+    <ul>
+      {page.data.map(data => <Card {...data} />)}
+    </ul>
+  </Main>
+
+  <Pagination {page} />
+
+  <Footer noMarginTop={page.lastPage > 1} />
+</Layout>

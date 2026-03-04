@@ -1,0 +1,51 @@
+---
+import PostDetails from "@/layouts/PostDetails.astro";
+import { getPosts, getPostBySlug } from "@/utils/hashnode";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const postResult = posts.map((post: any) => ({
+    params: { slug: post.slug },
+    props: { slug: post.slug },
+  }));
+
+  return postResult;
+}
+
+const { slug } = Astro.props;
+
+// Fetch full post details including HTML content from Hashnode
+const postData = await getPostBySlug(slug);
+
+if (!postData) {
+    return Astro.redirect('/404');
+}
+
+// Convert Hashnode post detail into CollectionEntry structure for PostDetails
+const post = {
+    id: slug,
+    slug: slug,
+    body: postData.content?.html || "", 
+    collection: "blog",
+    data: {
+      title: postData.title,
+      modDatetime: null,
+      pubDatetime: new Date(postData.publishedAt),
+      description: postData.subtitle || "",
+      draft: false,
+      tags: [],
+      author: "Gao Yang",
+      canonicalURL: `https://gaoyang.hashnode.dev/post/${slug}`,
+      editPost: {
+          disabled: true,
+          url: "",
+          appendFilePath: false
+      }
+    }
+} as CollectionEntry<"blog">;
+
+const posts = await getPosts();
+---
+
+<PostDetails post={post} posts={posts} />
