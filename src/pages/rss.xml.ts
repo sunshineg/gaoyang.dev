@@ -3,7 +3,7 @@ import { getPosts, getPublication } from "@/utils/hashnode";
 import { SITE } from "@/config";
 
 export async function GET() {
-  const posts = await getPosts(100);
+  const posts = await getPosts(50);
   const publication = await getPublication();
 
   return rss({
