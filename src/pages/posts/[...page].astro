@@ -18,9 +18,9 @@ const { page } = Astro.props;
 const publication = await getPublication();
 ---
 
-<Layout title={`Posts | ${publication.title}`}>
+<Layout title="Posts — 高阳Sunny">
   <Header />
-  <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
+  <Main pageTitle="文章" pageDesc="All the articles I've posted.">
     <ul>
       {page.data.map(data => <Card {...data} />)}
     </ul>

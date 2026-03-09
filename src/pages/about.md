@@ -1,37 +1,35 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于我"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+<div align="center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1678143231670/m_czrFjTY.jpeg" alt="Sunny Gao (高阳)" style="width: 420px; object-fit: cover; margin-bottom: 20px; border-radius: 8px;" />
 
-![Astro Paper](public/astropaper-og.jpg)
+  ## 👨‍💻 Hi there, I'm Sunny Gao (高阳) 👋
+</div>
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+---
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+### 💻 个人简介
 
-## Features
+- **身份**: 思否联合创始人 & ex-CEO | Apache Answer 发起人
+- **定位**: AI 创业者、Builder、开发者社区与生态专家
+- **使命**: 汇聚群体智慧，推动科技进步。(Gathering collective wisdom, driving technological progress.)
+- **当前状态**: 🚀 正在开启一段全新的 AI 相关的创业旅程...
+- 🔗 **了解更多**: 请访问 [sunshineg.github.io](https://sunshineg.github.io)
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+### 🛠️ 我参与构建与贡献的项目
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+- ✨ **AI 与群体智慧:** 发布了 *OpenSource.Win 宣言*，积极倡导在 AI 时代的开源精神。
+- 💡 **[Apache Answer](https://answer.apache.org/):** 发源于思否团队并开源的问答平台，致力于帮助组织构建知识社区。目前已作为**顶级项目 (TLP)** 从 Apache 软件基金会成功毕业！
+- 🤝 **C14Z 创之学社:** 于 2013 年发起了旨在连接年轻创业者的 Crazy GenerationZ (C14Z) 组织。
+- 🌍 **[SegmentFault (思否)](https://segmentfault.com):** 作为联合创始人，创立了中国领先的开发者问答社区，汇聚了数百万中文开发者。
 
-and so much more.
+### 📬 联系我
 
-## Show your support
+相较于即时通讯，我更倾向于**异步交流**。欢迎随时给我发一段简单的自我介绍！你可以通过领英、博客、Twitter 或是 GitHub 作为“社交名片”开启我们的对话。
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+- [GitHub (sunshineg)](https://github.com/sunshineg)
+- [Twitter (@sunshineg)](https://twitter.com/sunshineg)
+- [Telegram (@SunnyGao)](https://t.me/SunnyGao)
