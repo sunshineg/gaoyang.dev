@@ -36,33 +36,28 @@ Answer 是一款知识型问答平台软件，由 SegmentFault 思否团队在 2
 
 #### **项目主要里程碑**
 
--   2022 年 10 月 24 日，Answer 在 GitHub 上正式开源
-    
--   2022 年 10 月 27 日，Answer 项目登上 GitHub Trending，位列总榜以及 Go 语言榜 Top 1
-    
--   2022 年 12 月，Answer 1.0 正式版发布
-    
--   2023 年 10 月，Answer 顺利通过投票，正式进入 ASF 孵化器
-    
+- 2022 年 10 月 24 日，Answer 在 GitHub 上正式开源
+- 2022 年 10 月 27 日，Answer 项目登上 GitHub Trending，位列总榜以及 Go 语言榜 Top 1
+- 2022 年 12 月，Answer 1.0 正式版发布
+- 2023 年 10 月，Answer 顺利通过投票，正式进入 ASF 孵化器
 
 #### **Answer 产品特性**
 
--   ##### **好用的问答社区**
-    
-    Answer 是易用的，非专业人士在我们的文档帮助下轻松地将它运行起来。在 Answer 构建的知识问答社区里，任何人都可以迅速提问和回答，快速参与到社区中来，提升社区的活跃度。Answer 也已经做好了适配，你也可以通过移动端访问，获得和桌面端一样的优质体验。
-    
--   ##### **高效的内容管理**
-    
-    管理员可以使用标签将问题和内容进行归类，这样使内容管理变得轻松和高效。用户也可以使用搜索标签功能，快速找到与之对应的答案。通过关注标签，用户可以及时浏览到关注的内容，并按照所需要的展示方式进行排列。
-    
--   ##### **丰富的插件生态**
-    
-    用户可以用插件拓展 Answer ，添加新功能，引入新特性，让你的知识问答社区更强大和多样化。通过插件，用户可以根据自己的需求定制 Answer，让它更为灵活和适应工作流。
-    
--   ##### **趣味的用户激励体系**
-    
-    我们通过声望值让问答社区更加富有趣味性。在 Answer 构建的知识问答社区里，用户可以通过贡献高质量的内容、接受答案以及获得用户投票和来获取声望值。这不仅有助于确保社区中的内容质量，也确保了内容的实效性，同时鼓励用户在社区中建立专业声誉和影响力。社区成员可以在合作中找到乐趣和成就感。
-    
+- ##### **好用的问答社区**
+
+  Answer 是易用的，非专业人士在我们的文档帮助下轻松地将它运行起来。在 Answer 构建的知识问答社区里，任何人都可以迅速提问和回答，快速参与到社区中来，提升社区的活跃度。Answer 也已经做好了适配，你也可以通过移动端访问，获得和桌面端一样的优质体验。
+
+- ##### **高效的内容管理**
+
+  管理员可以使用标签将问题和内容进行归类，这样使内容管理变得轻松和高效。用户也可以使用搜索标签功能，快速找到与之对应的答案。通过关注标签，用户可以及时浏览到关注的内容，并按照所需要的展示方式进行排列。
+
+- ##### **丰富的插件生态**
+
+  用户可以用插件拓展 Answer ，添加新功能，引入新特性，让你的知识问答社区更强大和多样化。通过插件，用户可以根据自己的需求定制 Answer，让它更为灵活和适应工作流。
+
+- ##### **趣味的用户激励体系**
+
+  我们通过声望值让问答社区更加富有趣味性。在 Answer 构建的知识问答社区里，用户可以通过贡献高质量的内容、接受答案以及获得用户投票和来获取声望值。这不仅有助于确保社区中的内容质量，也确保了内容的实效性，同时鼓励用户在社区中建立专业声誉和影响力。社区成员可以在合作中找到乐趣和成就感。
 
 ![](/images/posts/segmentfault-answer-apache/img-2.png)
 
@@ -74,28 +69,17 @@ Answer 自开源以来累计发版 19 次，Github Star 7.9K+, 累计下载次�
 
 以下为 Answer 项目的 Innitial Committer，他们对 Answer 项目的前期发展做出了突出贡献：
 
--   Ning Qi [https://github.com/joyqi](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Feng Dong [https://github.com/fenbox](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Fengjun Lv [https://github.com/mingcheng](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Enxin Xie [https://github.com/LinkinStars](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Guangfu Yang [https://github.com/kumfo](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Yubin Ren [https://github.com/robinv8](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Shuailing Li [https://github.com/shuashuai](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Haitao Jia [https://github.com/haitaoo](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Chenyang Ai [https://github.com/aichy126](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Bo Jiang [https://github.com/jiangbonadia](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Anna Primma [https://github.com/PrimmaAnna](https://segmentfault.com/a/1190000044329115#fn-1)
-    
+- Ning Qi [https://github.com/joyqi](https://segmentfault.com/a/1190000044329115#fn-1)
+- Feng Dong [https://github.com/fenbox](https://segmentfault.com/a/1190000044329115#fn-1)
+- Fengjun Lv [https://github.com/mingcheng](https://segmentfault.com/a/1190000044329115#fn-1)
+- Enxin Xie [https://github.com/LinkinStars](https://segmentfault.com/a/1190000044329115#fn-1)
+- Guangfu Yang [https://github.com/kumfo](https://segmentfault.com/a/1190000044329115#fn-1)
+- Yubin Ren [https://github.com/robinv8](https://segmentfault.com/a/1190000044329115#fn-1)
+- Shuailing Li [https://github.com/shuashuai](https://segmentfault.com/a/1190000044329115#fn-1)
+- Haitao Jia [https://github.com/haitaoo](https://segmentfault.com/a/1190000044329115#fn-1)
+- Chenyang Ai [https://github.com/aichy126](https://segmentfault.com/a/1190000044329115#fn-1)
+- Bo Jiang [https://github.com/jiangbonadia](https://segmentfault.com/a/1190000044329115#fn-1)
+- Anna Primma [https://github.com/PrimmaAnna](https://segmentfault.com/a/1190000044329115#fn-1)
 
 ### **关于 Apache 孵化器**
 
@@ -109,14 +93,10 @@ Apache 孵化器为每个孵化项目（podling）指派了一些导师，他们
 
 **以下 4 位孵化器导师将作为 Answer 项目的 Mentor，指导 Answer 在 ASF 的治理模式和运作流程下逐渐成长：**
 
--   姜宁 (Willem) ，Apache 软件基金会董事、孵化器导师
-    
--   陈梓立（tison），Apache 软件基金会 Member、孵化器导师
-    
--   Justin Mclean ，Apache 软件基金会董事、孵化器 VP
-    
--   Christofer Dutz，Apache 软件基金会董事、孵化器导师
-    
+- 姜宁 (Willem) ，Apache 软件基金会董事、孵化器导师
+- 陈梓立（tison），Apache 软件基金会 Member、孵化器导师
+- Justin Mclean ，Apache 软件基金会董事、孵化器 VP
+- Christofer Dutz，Apache 软件基金会董事、孵化器导师
 
 ### **致谢与寄语**
 
@@ -132,19 +112,13 @@ Answer 所有的功能设计与开发全部是由我们社区中才华横溢的�
 
 **你可以在这里获取到我们的更多资源：**
 
--   官方网站：[http://answer.apache.org/](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   代码仓库：[https://github.com/apache/incubator-answer](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   技术文档：[https://answer.apache.org/docs](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   用户社区：[https://meta.answer.dev/](https://segmentfault.com/a/1190000044329115#fn-1)
-    
--   Discord：[https://discord.gg/c537sFxu](https://segmentfault.com/a/1190000044329115#fn-1)
-    
+- 官方网站：[http://answer.apache.org/](https://segmentfault.com/a/1190000044329115#fn-1)
+- 代码仓库：[https://github.com/apache/incubator-answer](https://segmentfault.com/a/1190000044329115#fn-1)
+- 技术文档：[https://answer.apache.org/docs](https://segmentfault.com/a/1190000044329115#fn-1)
+- 用户社区：[https://meta.answer.dev/](https://segmentfault.com/a/1190000044329115#fn-1)
+- Discord：[https://discord.gg/c537sFxu](https://segmentfault.com/a/1190000044329115#fn-1)
 
-* * *
+---
 
 1.  SegmentFault 思否宣布开源旗下问答平台软件 Answer, [https://segmentfault.com/a/1190000042680141](https://segmentfault.com/a/1190000042680141)[↩](https://segmentfault.com/a/1190000044329115/edit#fnref-1)
-    
 2.  Answer 社区公告, [https://answer.apache.org/blog/2023/10/24/answer-enters-apache-incubator/](https://segmentfault.com/a/1190000042680141)[↩](https://segmentfault.com/a/1190000044329115/edit#fnref-2)
