@@ -1,27 +1,27 @@
 ---
-title: "思否这个中文名的由来"
+title: "Where the Chinese Name \"Sifou\" Came From"
 pubDatetime: 2020-03-15T21:42:52.000Z
-description: "在很长的一段时间思否社区一直只有 SegmentFault 这个英文品牌和 segmentfault.com 这个全拼域名，虽然这个单词对于程序员来说并不陌生，但是依然有很多人不知道怎么读，对于非程序员来说记住如何拼写就更加困难了。 短域名 sf.gg 当时为了让大家更快速地访问社区，我们在 2012 年底启用了 sf.gg 这个短域名，当然这个非主流后缀域名由于在中国无法备案，只能用来做跳转域名"
-author: "Gao Yang"
-tags: ["思否", "segmentfault"]
+description: "For a long time, our community had only the English brand SegmentFault and the fully-spelled-out domain segmentfault.com. While the word is familiar to programmers, many people still didn't know how to pronounce it — and for non-programmers, remembering how to spell it was even harder. This is the story of how we got our Chinese brand name, Sifou."
+author: "Sunny Gao"
+tags: ["sifou", "segmentfault"]
 draft: false
 ogImage: "/images/posts/sifou-brand/cover.png"
 ---
 
-在很长的一段时间思否社区一直只有 SegmentFault 这个英文品牌和 [segmentfault.com](http://segmentfault.com) 这个全拼域名，虽然这个单词对于程序员来说并不陌生，但是依然有很多人不知道怎么读，对于非程序员来说记住如何拼写就更加困难了。
+For a long time, our community had only the English brand SegmentFault and the fully-spelled-out domain [segmentfault.com](http://segmentfault.com). While the word is familiar to programmers, many people still didn't know how to pronounce it — and for non-programmers, remembering how to spell it was even harder.
 
-### **短域名** [**sf.gg**](http://sf.gg)
+### **The short domain** [**sf.gg**](http://sf.gg)
 
-当时为了让大家更快速地访问社区，我们在 2012 年底启用了 [sf.gg](http://sf.gg) 这个短域名，当然这个非主流后缀域名由于在中国无法备案，只能用来做跳转域名。当时我们设计合伙人 @Fenbox 还特意为此做了一个动图。
+To make the community quicker to access, we launched the short domain [sf.gg](http://sf.gg) at the end of 2012. Because this non-mainstream TLD couldn't be registered for ICP filing in China, it could only be used as a redirect domain. Our design partner @Fenbox even made an animation for it.
 
-因为有了 [sf.gg](http://sf.gg) 这个域名和我们的 logo 是 sf 这两个字母，很多社区用户会经常戏称思否社区为：技术圈的顺丰、算法厂、沙发厂、算法哥哥、沙发哥哥。
+Because of the [sf.gg](http://sf.gg) domain and the letters "sf" in our logo, community users jokingly gave us all sorts of nicknames — most of them Chinese puns on the letters "SF," like "the SF Express of the tech circle," "the algorithm factory," and "the sofa factory."
 
 ![](/images/posts/sifou-brand/img-1.jpeg)
 
-### **中文品牌思否的由来**
+### **The origin of the Chinese brand name Sifou**
 
-后来为了让 SegmentFault 被更多科技行业的从业者和企业知道，我在 2015 年花了很多碎片时间思考我们中文名的事情，早在初期只有问答板块的时候我们有一个思问的名字，但是这个名字非常有局限性，直到 2015 年底我才想到了思否这个名字，拥有了现在这个全新的中文品牌名称：思否，取『独立思考、敢于否定』的意思，符合开发者和黑客精神。同时我们合伙人凑钱，在一个老外的手里把 [sifou.com](http://sifou.com) 的域名用比特币买了回来，并且注册了 .net 等顶级域名，及思否相关的多品类商标。
+Later, to make SegmentFault known to more professionals and companies in the tech industry, I spent much of my spare time in 2015 thinking about our Chinese name. Back in the early days, when we only had the Q&A section, we had a name — "Siwen" (思问, roughly "thinking and asking") — but it was very limiting. It wasn't until late 2015 that I came up with the name Sifou (思否), the Chinese brand name we use today: it carries the meaning of "think independently, dare to question," which fits the spirit of developers and hackers. Around the same time, my co-founders and I pooled our money and bought the [sifou.com](http://sifou.com) domain back from a foreign owner — paid for in bitcoin — and registered other TLDs like .net, along with trademarks for Sifou across multiple categories.
 
-因为当时我们对于品牌定位思考得不够清晰，SegmentFault 社区的业务也有很多尚不成熟的地方，所以我们并没有第一时间启用这个品牌，直到 2018 年初我们正式对外启用了『思否』这个中文品牌名，并同时作为公司和团队品牌名。
+Because our thinking on brand positioning wasn't yet clear at the time, and many parts of SegmentFault's business were still immature, we didn't adopt the brand right away. It wasn't until early 2018 that we officially launched "Sifou" as our Chinese brand name — used for both the company and the team.
 
 ![](/images/posts/sifou-brand/img-2.jpeg)

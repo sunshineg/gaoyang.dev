@@ -1,75 +1,75 @@
 ---
-title: "Joyqi 在 COSCon'22 的演讲：Answer 开源背后的故事"
+title: "Joyqi's Talk at COSCon'22: The Story Behind Open-Sourcing Answer"
 pubDatetime: 2022-10-30T13:36:03.000Z
-description: "2022 年 10 月 30 日，我的技术合伙人，开源问答社区软件 Answer 项目联合创始人 Joyqi 受邀在 COSCon'22 中国开源年会进行了主题分享，介绍了他对 Answer 项目的思考。以下是分享内容的文字记录版本。 Hi，大家好，我是来自 SegmentFault 的 Joyqi。很高兴这次有机会能在中国开源年会跟大家一起分享。 SegmentFault 是一个以问答形式为主体"
-author: "Gao Yang"
-tags: ["segmentfault", "answer", "Open Source", "开源"]
+description: "On October 30, 2022, my technical co-founder Joyqi — co-founder of the open-source Q&A community software Answer — was invited to give a talk at COSCon'22, the China Open Source Conference, sharing his thinking behind the Answer project. Below is a transcript of his talk."
+author: "Sunny Gao"
+tags: ["segmentfault", "answer", "Open Source"]
 draft: false
 ogImage: "/images/posts/joyqi-coscon22-answer/cover.jpeg"
 ---
 
-**2022 年 10 月 30 日，我的技术合伙人，开源问答社区软件 Answer 项目联合创始人 Joyqi 受邀在 COSCon'22 中国开源年会进行了主题分享，介绍了他对 Answer 项目的思考。以下是分享内容的文字记录版本。**
+**On October 30, 2022, my technical co-founder Joyqi — co-founder of the open-source Q&A community software Answer — was invited to give a talk at COSCon'22, the China Open Source Conference, sharing his thinking behind the Answer project. Below is a transcript of his talk.**
 
 ---
 
-Hi，大家好，我是来自 SegmentFault 的 Joyqi。很高兴这次有机会能在中国开源年会跟大家一起分享。
+Hi everyone, I'm Joyqi from SegmentFault. It's a real pleasure to have this opportunity to share with you at the China Open Source Conference.
 
-SegmentFault 是一个以问答形式为主体的开发者社区，大批的一线工程师在社区中交流、贡献知识。我们想凝聚开发者的智慧，让知识流通更加的顺畅。
+SegmentFault is a developer community built around Q&A, where a huge number of working engineers exchange ideas and contribute knowledge. We want to harness developers' collective intelligence and let knowledge flow more freely.
 
-SegmentFault 的开发大概起源于 10 年之前，第一行代码就出自我的手中。在创建整个社区的过程中，我们克服了大量的困难，但同时也积累了大量的经验，比如：
+Development of SegmentFault began roughly ten years ago — the very first line of code came from my own hands. In building this community, we overcame enormous difficulties, but we also accumulated enormous experience. For example:
 
-- **我们在国内开发者社区中首次引入了问答的形式**，这在当时是很新潮的一种内容载体，我们把这种高效的知识交流形式推广到国内的各大平台中，得到了广大用户的一致认同；
-- **我们也抛弃了大量以前以分区或以分类为主的内容聚合形式，采用更灵活的标签来聚合内容**。因为在这个信息大爆炸的时代，新的主题随时都可能出现，它可能是以分钟或以秒为计量单位出现，如果是以前的分区/分类形式，需管理员手动建立这些主题的话，很快就会跟不上形势。所以我们让内容的发起者来决定这种内容聚合的路径，用标签的形式来聚合内容，让用户真正参与到社区的治理中，与社区一同成长；
-- **通过设计良好的积分体系和成长路径，让用户可以积累声誉，从而解锁更多社区的管理功能，从而成为社区真正的主人**；
+- **We were the first developer community in China to adopt the Q&A format.** At the time it was a very novel medium for content, and we promoted this efficient form of knowledge exchange across major platforms in China, where it won unanimous recognition from users;
+- **We abandoned the old forum-style approach of organizing content by fixed boards and categories, and adopted flexible tags instead.** In this age of information explosion, new topics can emerge at any moment — sometimes by the minute, sometimes by the second. With the old board/category model, administrators would have to create these topics manually and would quickly fall behind. So we let content creators decide how content gets aggregated, using tags, letting users genuinely participate in the community's governance and grow together with it;
+- **Through a well-designed reputation system and growth path, users can accumulate reputation and unlock more community management features, becoming the true owners of the community**;
 - …
 
-以上这些概念在当下的互联网中其实已无处不在了，但作为这些概念的先行者，我们引入得早、有更多实践，因此也思考得更多，在成长的过程中也得到了大量的帮助。与此同时，我们还意识到知识的流通不应该仅局限于一个渠道，它一定是在整个社会中广泛存在的，我们的大量合作伙伴在合作的过程中都对建立自己的知识交流平台有着很高的需求，这也是我们在不断地反馈中，积累到的频率极高的需求。因此，立足于自身对此类平台的一些思考，我们想把自身的能力赋予那些真正需要的人，同时也可以更好地回馈社区，这也是开源精神的核心所在。
+These concepts are now everywhere on the internet, but as pioneers of them, we adopted them early, practiced them more, and therefore thought about them more deeply — and we received a great deal of help along the way. At the same time, we came to realize that the flow of knowledge shouldn't be confined to a single channel; it exists broadly across society. Many of our partners expressed a strong need for their own knowledge-exchange platforms in the course of working with us — it was one of the most frequent requests we received. So, drawing on our own thinking about this kind of platform, we wanted to empower the people who truly need it — and at the same time give back to the community. That, after all, is the core of the open-source spirit.
 
-今天，我想在这里给大家分享一款由 **SegmentFault 思否团队倾力打造的开源问答社区软件，它的名字非常简单直接，叫「Answer」**。大家可以看到，Answer 的 logo 是个很简单的笑脸，上面是对话框的形式。
+Today, I'd like to share with you an open-source Q&A community software built with all the dedication of the **SegmentFault team. Its name is simple and direct: "Answer."** As you can see, Answer's logo is a simple smiley face in the shape of a speech bubble.
 
-如大家所见，我们在下面列出了该软件的一些小目标：
+As you can see, we've listed some of our goals for the software below:
 
 ![](/images/posts/joyqi-coscon22-answer/img-1.png)
 
-**我们的目标是想打造一款精巧的开源问答软件**。因为目前这种同类型的社区软件，大多使用负担都特别重，**我们想让使用者能以非常低的成本来运行，不论是技术社区，还是用户的问答社区，亦或是做产品的粉丝社区**……现在，很多厂商都会有这样的粉丝社区，在这里你可以自由地以问答内容组织形式去搭建各种各样的社区。
+**Our goal is to build an elegant, lightweight open-source Q&A software.** Most community software of this kind is very heavy to operate, and **we want users to be able to run it at a very low cost — whether it's a tech community, a user Q&A community, or a fan community for a product**… Many companies run fan communities like this today, and with Answer you can freely build all kinds of communities organized around Q&A content.
 
-正如刚才所说，我们想以最低的成本来实现这样的目标。最低的成本不仅体现在用户使用的心智成本上，还包括一些很现实的，比如搭建社区所需要的硬件成本，以及维护社区所需要的人力成本等……
+As I just said, we want to achieve this at the lowest possible cost. That cost is not only about the mental cost for users, but also very practical things like the hardware cost of running a community and the human cost of maintaining it…
 
-- 心智成本上，包括用户的上手难度、国际化支持等，我们希望通过产品帮用户搞定这些；
-- 硬件成本上，比如：我们选用当下开源社区中非常高效的 Go 语言来做开发，通过诸如此类的选择，我们希望可以让用户的硬件资源占用情况达到优秀；
-- 人力成本上，通过把我们对于社区运营维护的经验产品化，我们希望可以帮助每一个组织在投入人力有限的情况下，依旧可以保持社区活跃，实现社区的开放治理
+- On mental cost: this includes how easy the product is to pick up, internationalization support, and so on — we want the product to take care of these for users;
+- On hardware cost: for example, we chose Go — a highly efficient language in the open-source world — for development. Through choices like this, we hope to keep users' hardware resource usage excellent;
+- On human cost: by turning our community operations experience into product features, we hope to help every organization keep its community active and achieve open community governance even with limited staffing;
 - …
 
-以上只是举例。
+These are just a few examples.
 
-在介绍 Answer 项目的主要功能之前，我还想以开源的角度介绍一下该项目背后的开发团队—— **SegmentFault 思否是这个项目背后的创始开发团队**。其实从创立之初，思否就以开源的形式发展，跟开源的关系非常密切。几个创始人在开源社区中非常活跃，包括我本人还有其他几位创始人都长期立足于开源，有自己的开源项目。
+Before introducing Answer's main features, I'd also like to introduce the development team behind the project from an open-source perspective — **SegmentFault is the founding development team behind this project**. In fact, SegmentFault has grown in an open-source way since its very beginning and has always been closely tied to open source. Several of our founders are very active in the open-source community — myself and the other founders have long been rooted in open source, each with our own open-source projects.
 
-**我是开源博客平台 Typecho 的发起人及主要的贡献者**。Typecho 项目至今已有大概 15 年的历史了，它是我在大学四年级的时候发起的项目，关于该项目我在之前的演讲中已经介绍过很多。思否现在的大部分核心成员，其实也都在 Typecho 项目中贡献过力量。**思否自己本身在发展的过程中，也发布了大量的开源项目**，大家可以在思否 GitHub 主页上看到，欢迎大家去关注，也可以去贡献代码或提出使用上的 bug 等，这是我们一直在做的、以后也会坚持做下去的事情。因为我们建立 SegmentFault 本身也获得了很多开源项目的支持，使用了很多开源组件，也给很多开源组件提过很多改进或代码的提交等等……
+**I'm the founder and main contributor of Typecho, the open-source blogging platform.** Typecho is about 15 years old now; I started it in my senior year of university, and I've talked about it at length in previous talks. Most of SegmentFault's core members today have actually contributed to the Typecho project as well. **SegmentFault itself has released a large number of open-source projects over the course of its development** — you can see them on SegmentFault's GitHub page. You're welcome to follow them, contribute code, or report bugs — this is something we've always done and will keep doing. Building SegmentFault itself, we received support from many open-source projects, used many open-source components, and submitted plenty of improvements and code contributions to those components in return…
 
-我们跟开源社区的互动一直非常频繁，作为开源社区的一员，我们一直希望把自己的力量回馈给开源社区，在一直回馈的基础上还想做出更大的贡献。因此，开源两个字可谓是刻在我们团队的基因中。**此次发布开源项目 Answer ，我们希望它是一款能够真正有用且好用的软件，我们希望能把我们做思否这十年的认知凝聚在新发布的 Answer 产品上**。
+Our interaction with the open-source community has always been frequent. As a member of the open-source community, we've always wanted to give our strength back to it — and beyond continuous giving, we want to make an even bigger contribution. So "open source" is truly engraved in our team's DNA. **With the release of the open-source project Answer, we hope it will be genuinely useful and genuinely usable software — we want to distill everything we've learned from ten years of building SegmentFault into the newly released Answer product.**
 
 ![](/images/posts/joyqi-coscon22-answer/img-2.png)
 
-在 PPT 上，我们列出了 Answer 的主要特性，比如像思否平台一样的问答功能、高效的内容组织特性及用户成长体系游戏化的用户积分体系。此外**我们还结合了广大厂商用户、企业用户的需求 —— Answer 项目是一个可扩展的项目**，它可以通过插件等形式扩展出更多用法和玩法。我们想让 Answer 通过扩展的形式与企业内部的各种工具互联互通。当前，很多企业内部都运行着各种工具，包括项目管理软件、即时通讯软件、邮件还有 OA 系统等等来做企业内部交流。**我们希望让 Answer 项目通过各种接口或插件的形式融入到企业内部的工作流中，这也是我们让它有用且好用的一个宗旨。**
+On the slide, we've listed Answer's main features — the same kind of Q&A functionality as the SegmentFault platform, efficient content organization, and a gamified user reputation and growth system. **We've also incorporated the needs of our many vendor and enterprise users — Answer is an extensible project**, which can be extended through plugins and other mechanisms into many more use cases. We want Answer to interconnect with all kinds of internal enterprise tools through extensions. Today, companies run all sorts of internal tools — project management software, instant messaging, email, OA systems, and more — for internal communication. **We want Answer to integrate into enterprises' internal workflows through APIs and plugins. That's part of what we mean by making it useful and usable.**
 
-需要说明的是，Answer 项目现在才刚刚发布，目前只是一个预览版本，它为我们未来的事业搭建了一个框架。“千里之行，始于足下”，希望这个项目能够在整个开源社区的推动下不断发展。
+It should be noted that Answer has only just been released — it's currently a preview version, but it lays the framework for what we're building going forward. As the saying goes, "a journey of a thousand miles begins with a single step." We hope the project will keep growing, driven by the whole open-source community.
 
-这里展示了 Answer 项目的一些主页界面，熟悉思否的朋友可以发现它的页面展现形式跟思否非常像。同时，右侧小移动端的界面则展示了移动端自适应优化产品的细节。正如之前提到的，作为降低用户成本的一部分，我们在打造该产品的过程中就注意了很多这样的细节，让所有他的用户都能以最低的成本无障碍使用交流。
+Here you can see some screenshots of Answer's homepage. Friends familiar with SegmentFault will notice that its pages look a lot like SegmentFault's. Meanwhile, the mobile interface on the right shows the details of our mobile-adaptive design. As mentioned earlier, as part of lowering users' costs, we paid attention to many such details while building the product, so that all of its users can communicate without barriers at the lowest possible cost.
 
-Answer 是一个开源项目，我们非常真诚且热切地希望大家能够参与到该项目中来。We welcome all contributions! 我们热忱地欢迎各种贡献者，不管是你是提 issue 、提建议，或者提 bug 、贡献代码，再或者只是点个简单的关注，希望你能参与到项目建设中来，让我们能够共同建立开源社区，支持 Answer 项目的发展。
+Answer is an open-source project, and we sincerely and warmly hope you'll get involved. We welcome all contributions! Whether it's filing issues, making suggestions, reporting bugs, contributing code, or simply giving us a follow — we hope you'll take part in building the project, so that together we can build an open-source community and support Answer's growth.
 
 ![](/images/posts/joyqi-coscon22-answer/img-3.png)
 
-这里有几个网址，最上面是 Answer 项目的主页，非常好记，就是 [**answer.dev**](http://answer.dev)，大家可以关注一下，基本上所有的信息我们都会展示都在上面。当然，现在暂时是非常基础的样子，后续的项目文档已在规划中，马上会跟大家见面，项目文档也会在上面有所展示。
+Here are a few URLs. At the top is Answer's homepage — very easy to remember: [**answer.dev**](http://answer.dev). Do check it out; basically all project information will be published there. Of course, it's quite basic for now, but the project documentation is already being planned and will be available there soon.
 
-下面是主要的项目代码 GitHub 的地址，我们的 GitHub 账号是 AnswerDev ，跟主页关联，项目是 [**https://github.com/answerdev/answer**，](https://github.com/answerdev/answer，) 大家可以在里面看到我们 Answer 项目的所有主要的代码，包括一些简单的安装部署的文档也会在里面有所展示。
+Below that is the main GitHub address for the project code. Our GitHub account is AnswerDev, matching the homepage, and the project is at [**https://github.com/answerdev/answer**](https://github.com/answerdev/answer), where you can find all of Answer's main code, along with some simple installation and deployment documentation.
 
-今后，我们官方消息的主要发布地址，是 Twitter 官方账号[**@AnswerDev**](https://link.segmentfault.com/?enc=sz3nP0nqaGXN7n9UeK4qcQ%3D%3D.Cn9PsWhf9RIKqOn3zGjwD4qXp4jW0cmtgdQ1fdk6Uyo%3D) 。我们希望 Answer 项目成为一个国际化的项目，因此在官方社区或后续交流中主要信息会以英文形式为主，当然我们也会提供相应的中文内容，希望能够让 Answer 的声量在整个世界范围内传播得更大。
+Going forward, our main channel for official announcements will be the Twitter account [**@AnswerDev**](https://link.segmentfault.com/?enc=sz3nP0nqaGXN7n9UeK4qcQ%3D%3D.Cn9PsWhf9RIKqOn3zGjwD4qXp4jW0cmtgdQ1fdk6Uyo%3D). We want Answer to be an international project, so official community communications will primarily be in English — though we'll provide Chinese content as well — in the hope that Answer's voice can spread further around the world.
 
-最后，再次感谢开源社举办的中国开源年会！如果大家有各种问题或建议以及其他大家想知道的信息，可以通过各种渠道与我们交流，非常感谢！
+Finally, thanks once again to KAIYUANSHE for hosting the China Open Source Conference! If you have any questions, suggestions, or anything else you'd like to know, you can reach us through any of these channels. Thank you very much!
 
 ---
 
-**Joyqi** [**的联系方式：**  
-**邮箱**：joyqi@sifou.com](mailto:的联系方式：￼邮箱：joyqi@sifou.com)  
-**Twitter**：[@joyqi](https://twitter.com/joyqi)
+**Joyqi's contact:**  
+**Email**: [joyqi@sifou.com](mailto:joyqi@sifou.com)  
+**Twitter**: [@joyqi](https://twitter.com/joyqi)

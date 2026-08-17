@@ -1,38 +1,38 @@
 ---
-title: "致思否社区开发者：归零进一"
+title: "To the Developers of the Sifou Community: Back to Zero, Carrying Into One"
 pubDatetime: 2022-05-03T21:41:44.000Z
-description: "这是一篇我技术合伙人 joyqi 为 ONES 收购 SegmentFault 社区撰写的文章，原文刊发在此，这篇文章也表达了一些他 10 年创业生涯的一些小小的感想，全文摘录如下。 各位 SegmentFault 思否社区的小伙伴们，相信大家已经从多个渠道了解到 SegmentFault 将加入 ONES 的消息。而今年正好也是 SegmentFault 社区创立的10周年，有趣的是“10”这个"
-author: "Gao Yang"
-tags: ["segmentfault", "思否"]
+description: "This is an article written by my technical co-founder Joyqi on the occasion of ONES' acquisition of the SegmentFault community. It also captures some of his reflections on ten years of entrepreneurship, and is reproduced here in full."
+author: "Sunny Gao"
+tags: ["segmentfault", "sifou"]
 draft: false
 ogImage: "/images/posts/sifou-new-chapter/cover.png"
 ---
 
-> 这是一篇我技术合伙人 joyqi 为 ONES 收购 SegmentFault 社区撰写的文章，[原文刊发在此](https://segmentfault.com/a/1190000041790801)，这篇文章也表达了一些他 10 年创业生涯的一些小小的感想，全文摘录如下。
+> This is an article written by my technical co-founder Joyqi on the occasion of ONES' acquisition of the SegmentFault community; the [original was published here](https://segmentfault.com/a/1190000041790801). It also captures some of his small reflections on ten years of entrepreneurship, and is reproduced here in full.
 
-各位 SegmentFault 思否社区的小伙伴们，相信大家已经从多个渠道了解到 SegmentFault 将加入 ONES 的消息。而今年正好也是 SegmentFault 社区创立的10周年，有趣的是“10”这个数字不论在十进制还是计算机世界的二进制里都表示一次进位，我想它也很好地昭示了这次收购以及这个10年对我们社区的意义，这是一次进化！
+Dear friends of the SegmentFault community — by now you've probably heard through various channels that SegmentFault is joining ONES. This year also happens to be the 10th anniversary of the SegmentFault community. Interestingly, the number "10" represents a carry into a new digit in both decimal and the binary world of computers — and I think it perfectly symbolizes what this acquisition, and this decade, mean for our community. This is an evolution!
 
-## 理想
+## The Ideal
 
-十年前我写下了 SegmentFault 的第一行代码，它起始于一个简单的想法：让开发者用中文更好地交流。当然，英语作为开发通用语言的地位是毋庸置疑的，它也贡献了计算机世界中最大最精华的知识。但随着中国的软件开发及互联网的崛起，越来越多的中文开发者受制于无法用自己的母语去交流这些前沿知识，我们也无法享受到一流的社区环境。这造成了事实上的信息不对等，作为一个开发者，我无法对这样一个巨大的 BUG 视而不见。
+Ten years ago I wrote the first line of code for SegmentFault. It started from a simple idea: let developers communicate better in Chinese. Of course, there's no question about English's status as the lingua franca of software development — it has also contributed the largest and finest body of knowledge in the computing world. But with the rise of software development and the internet in China, more and more Chinese-speaking developers were unable to discuss this cutting-edge knowledge in their native language, and we had no access to a first-class community environment. This created a de facto information asymmetry — and as a developer, I couldn't turn a blind eye to a bug that big.
 
-SegmentFault 社区的建立就是为了消除开发领域的知识不平等。**我们要让开发者的智慧凝聚起来，我们要建立一个强大的社区。**
+The SegmentFault community was built to eliminate knowledge inequality among developers. **We want to bring developers' wisdom together. We want to build a powerful community.**
 
-幸运的是，自从社区创立以来，理想就一直未曾离我们而去，反而变得更加清晰起来。越来越多的用户以我们未曾想过的方式，一同打造着这个社区。我们在社区中相识，用知识改变着世界。现在 ONES 也加入了进来，我们并不将其视为一次单纯的商业行为，它代表着我们的社区理念获得了认可，也代表着有更多的力量愿意跟我们一起去实现理想。
+Fortunately, since the community was founded, the ideal has never left us — if anything, it has only become clearer. More and more users have been building this community with us in ways we never imagined. We met each other in the community, and we've used knowledge to change the world. Now ONES has joined us too. We don't see this as merely a business transaction — it means our community philosophy has been recognized, and it means more strength is willing to join us in realizing our ideal.
 
-## 共识
+## Consensus
 
-**一个社区的核心是共识。**
+**The core of a community is consensus.**
 
-当今这个世界，割裂似乎成为了主题，不信任不合作充斥着网络。但纵观人类的历史，割裂的意识往往导致力量的虚弱。做成伟大的事情是需要相互协作的，而协作的基础就是共识。
+In today's world, division seems to be the theme — distrust and non-cooperation fill the internet. But looking back across human history, a mindset of division has always led to weakness. Accomplishing great things requires collaboration, and the foundation of collaboration is consensus.
 
-作为一个中文开发者问答社区，我们的目标就是要凝聚开发者的智慧。因此我们鼓励分享，拥抱开放，我们认为信息的不对等影响了生产力的提高，我们将尽一切努力打破知识的藩篱，我们要让知识传播的效率更高，我们要让专业可靠的知识惠及所有人。
+As a Q&A community for Chinese-speaking developers, our goal is to harness developers' collective wisdom. So we encourage sharing and embrace openness. We believe information asymmetry holds back productivity, and we will do everything we can to break down the walls around knowledge. We want knowledge to spread more efficiently, and we want professional, reliable knowledge to benefit everyone.
 
-## 归零进一
+## Back to Zero, Carrying Into One
 
-当我们跨过十年的台阶，眼前已是一片更广阔的天空，虽然四周吹拂着时代的乱流，但心中的火苗却愈加旺盛。十年间的一切已经在身后，而我们站在新的起点时，过去的一切已被归零，一个新的身躯却已整装待发。
+As we step over the ten-year threshold, a broader sky opens before us. The crosswinds of the era may blow around us, but the flame in our hearts burns ever stronger. Everything from these ten years is now behind us — standing at this new starting line, the past has been reset to zero, while a new self stands ready to set off.
 
-现在，是时候继续更快地向我们的理想前进了，我们向所有的开发者发出邀请，让我们将知识流动起来，建立一个更开放，包容，进步的社区。
+Now it's time to keep moving toward our ideal, faster. We extend an invitation to every developer: let's get knowledge flowing, and build a more open, inclusive, and progressive community together.
 
-_祁宁_  
-_2022年5月4日于深圳_
+_Ning Qi_  
+_Shenzhen, May 4, 2022_
