@@ -4,13 +4,13 @@ import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import PostsGrouped from "@/components/PostsGrouped.astro";
-import { getCollection } from "astro:content";
+import { getBlogPosts } from "@/utils/getPosts";
 import getSortedPosts from "@/utils/getSortedPosts";
 
 // Rest route kept so the URL stays `/posts` — no pagination, all posts shown.
 export const getStaticPaths = () => [{ params: { page: undefined } }];
 
-const posts = getSortedPosts(await getCollection("blog"));
+const posts = getSortedPosts(await getBlogPosts());
 ---
 
 <Layout title="Posts — 高阳Sunny">

@@ -1,9 +1,17 @@
+// Build-time site locale: "zh" (gaoyang.dev, default) | "en" (sunnygao.com).
+// Set via the PUBLIC_SITE_LOCALE environment variable at build time.
+const LOCALE = process.env.PUBLIC_SITE_LOCALE === "en" ? "en" : "zh";
+
 export const SITE = {
-  website: "https://gaoyang.dev/", // replace this with your deployed domain
-  author: "高阳Sunny",
+  website: LOCALE === "en" ? "https://sunnygao.com/" : "https://gaoyang.dev/", // replace this with your deployed domain
+  author: LOCALE === "en" ? "Sunny Gao" : "高阳Sunny",
   profile: "https://github.com/sunshineg",
-  desc: "高阳Sunny 的个人博客，记录创业、开源与产品思考",
-  title: "Hello World: Re-Act",
+  desc:
+    LOCALE === "en"
+      ? "Sunny Gao's blog on startups, open source and products"
+      : "高阳Sunny 的个人博客，记录创业、开源与产品思考",
+  title: LOCALE === "en" ? "Sunny Gao's Blog" : "Hello World: Re-Act",
+  locale: LOCALE,
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
