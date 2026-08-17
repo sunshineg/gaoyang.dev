@@ -33,7 +33,9 @@ const recentPosts = posts.filter(
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class="border-b border-border pt-10 pb-8">
-      <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-8">
+      <div
+        class="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-center sm:gap-8 sm:text-left"
+      >
         {
           hasHomeAvatar && (
             <img
@@ -46,13 +48,13 @@ const recentPosts = posts.filter(
         }
         <div class="min-w-0 flex-1">
           <div class="flex items-start justify-between gap-4">
-            <h1 class="text-2xl font-bold sm:text-3xl">
+            <h1 class="text-xl font-bold whitespace-nowrap sm:text-3xl">
               👨‍💻 Hi there, I’m 高阳Sunny 👋
             </h1>
             <a
               target="_blank"
               href="/rss.xml"
-              class="mt-2 inline-block"
+              class="mt-2 hidden sm:inline-block"
               aria-label="rss feed"
               title="RSS Feed"
             >
