@@ -13,6 +13,12 @@
       @apply mb-3 text-foreground;
     }
 
+    h2,
+    h3,
+    h4 {
+      @apply tracking-[-0.02em];
+    }
+
     h3 {
       @apply italic;
     }
@@ -28,7 +34,7 @@
     }
 
     a {
-      @apply wrap-break-word text-foreground decoration-dashed underline-offset-4 hover:text-accent focus-visible:no-underline;
+      @apply wrap-break-word text-primary decoration-dashed underline-offset-4 hover:text-primary-hover focus-visible:no-underline;
     }
 
     ul {
@@ -83,11 +89,7 @@
     }
 
     summary {
-      @apply focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-accent focus-visible:outline-dashed;
-    }
-
-    pre {
-      @apply focus-visible:border-transparent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-dashed;
+      @apply focus-visible:no-underline;
     }
   }
 

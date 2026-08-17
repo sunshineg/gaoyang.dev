@@ -1,0 +1,77 @@
+---
+import type { CollectionEntry } from "astro:content";
+import getPostsByGroupCondition from "@/utils/getPostsByGroupCondition";
+import Card from "./Card.astro";
+
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+] as const;
+
+type Props = {
+  posts: CollectionEntry<"blog">[];
+};
+
+const { posts } = Astro.props;
+---
+
+<div class="flex flex-col gap-12">
+  {
+    Object.entries(
+      getPostsByGroupCondition(posts, post => post.data.pubDatetime.getFullYear())
+    )
+      .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+      .map(([year, yearGroup]) => (
+        <section>
+          <h2 class="flex items-baseline gap-2">
+            <span class="text-heading-20 font-bold">{year}</span>
+            <sup class="text-caption-12 font-medium text-muted-fg">
+              {yearGroup.length}
+            </sup>
+          </h2>
+          {
+            Object.entries(
+              getPostsByGroupCondition(
+                yearGroup,
+                post => post.data.pubDatetime.getMonth() + 1
+              )
+            )
+              .sort(([monthA], [monthB]) => Number(monthB) - Number(monthA))
+              .map(([month, monthGroup]) => (
+                <div class="mt-6 flex flex-col sm:flex-row">
+                  <div class="sm:my-6 sm:w-36 sm:min-w-36 sm:shrink-0">
+                    <span class="text-label-16 font-medium text-secondary">
+                      {months[Number(month) - 1]}
+                    </span>
+                    <sup class="ms-0.5 text-caption-12 text-muted-fg">
+                      {monthGroup.length}
+                    </sup>
+                  </div>
+                  <ul class="w-full">
+                    {monthGroup
+                      .sort(
+                        (a, b) =>
+                          Math.floor(new Date(b.data.pubDatetime).getTime() / 1000) -
+                          Math.floor(new Date(a.data.pubDatetime).getTime() / 1000)
+                      )
+                      .map(data => (
+                        <Card {...data} />
+                      ))}
+                  </ul>
+                </div>
+              ))
+          }
+        </section>
+      ))
+  }
+</div>
