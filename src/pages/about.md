@@ -4,7 +4,7 @@ title: "关于我"
 ---
 
 <div align="center">
-  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1678143231670/m_czrFjTY.jpeg" alt="Sunny Gao (高阳)" style="width: 420px; object-fit: cover; margin-bottom: 20px; border-radius: 8px;" />
+  <img src="/images/avatar.jpg" alt="Sunny Gao (高阳)" style="width: 420px; object-fit: cover; margin-bottom: 20px; border-radius: 8px;" />
 
   ## 👨‍💻 Hi there, I'm Sunny Gao (高阳) 👋
 </div>
