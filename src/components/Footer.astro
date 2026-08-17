@@ -1,6 +1,7 @@
 ---
 import type { HTMLAttributes } from "astro/types";
 import Socials from "./Socials.astro";
+import { t } from "@/i18n";
 
 const currentYear = new Date().getFullYear();
 
@@ -30,7 +31,7 @@ const { noMarginTop = false, class: className, ...attrs } = Astro.props;
       <span>&nbsp;·&nbsp;</span>
       <span>
         <a
-          href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans"
+          href={t.ccLicenseUrl}
           target="_blank"
           rel="noopener noreferrer"
           class="text-secondary hover:text-primary"

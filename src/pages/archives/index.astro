@@ -7,6 +7,7 @@ import PostsGrouped from "@/components/PostsGrouped.astro";
 import { getBlogPosts } from "@/utils/getPosts";
 import getSortedPosts from "@/utils/getSortedPosts";
 import { SITE } from "@/config";
+import { t } from "@/i18n";
 
 // Redirect to 404 page if `showArchives` config is false
 if (!SITE.showArchives) {
@@ -16,9 +17,9 @@ if (!SITE.showArchives) {
 const posts = getSortedPosts(await getBlogPosts());
 ---
 
-<Layout title="文章｜Hello World: Re-Act">
+<Layout title={t.archivesTitle}>
   <Header />
-  <Main pageTitle="文章" pageDesc="All the articles I've posted.">
+  <Main pageTitle={t.posts} pageDesc={t.postsDesc}>
     <div class="mt-6">
       <PostsGrouped {posts} />
     </div>

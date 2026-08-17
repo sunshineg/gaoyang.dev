@@ -6,6 +6,7 @@ import Socials from "@/components/Socials.astro";
 import Card from "@/components/Card.astro";
 import IconRss from "@/assets/icons/IconRss.svg";
 import { SITE } from "@/config";
+import { t } from "@/i18n";
 import { SOCIALS } from "@/constants";
 import { getBlogPosts } from "@/utils/getPosts";
 import { existsSync } from "node:fs";
@@ -29,7 +30,7 @@ const recentPosts = posts.filter(
 );
 ---
 
-<Layout title="I’m 高阳Sunny — Hello World: Re-Act" description={SITE.desc}>
+<Layout title={t.homeTitle} description={SITE.desc}>
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class="border-b border-border pt-10 pb-8">
@@ -40,16 +41,20 @@ const recentPosts = posts.filter(
           hasHomeAvatar && (
             <img
               src="/images/avatar-home.png"
-              alt="Sunny Gao (高阳)"
+              alt={SITE.locale === "en" ? "Sunny Gao" : "Sunny Gao (高阳)"}
               class="size-32 shrink-0 rounded-full object-cover sm:size-40"
               loading="lazy"
             />
           )
         }
         <div class="min-w-0 flex-1">
-          <div class="flex items-start justify-between gap-4">
+          <div class="flex items-start justify-center gap-4 sm:justify-between">
             <h1 class="text-xl font-bold whitespace-nowrap sm:text-3xl">
-              👨‍💻 Hi there, I’m 高阳Sunny 👋
+              {
+                SITE.locale === "en"
+                  ? "👨‍💻 Hi there, I’m Sunny Gao 👋"
+                  : "👨‍💻 Hi there, I’m 高阳Sunny 👋"
+              }
             </h1>
             <a
               target="_blank"
@@ -67,36 +72,83 @@ const recentPosts = posts.filter(
             </a>
           </div>
 
-          <p class="mt-8 text-body-20 text-secondary">
-            <a
-              href="https://mindmux.ai/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-medium text-primary hover:text-primary-hover"
-              >MindMux.ai</a
-            >
-            创始人兼 CEO，曾联合创办 SegmentFault 思否，支持团队开源了
-            <a
-              href="https://answer.apache.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-medium text-primary hover:text-primary-hover"
-              >ApacheAnswer</a
-            >
-            与
-            <a
-              href="https://projectbrain.md/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-medium text-primary hover:text-primary-hover"
-              >ProjectBrain.md</a
-            >，家有两只🐱星人，在这里会发一些个人动态、项目进展以及行业的观察，欢迎异步交流。
+          <p class="mt-8 text-center text-body-20 text-secondary sm:text-left">
+            {
+              SITE.locale === "en" ? (
+                <>
+                  Founder & CEO of
+                  <a
+                    href="https://mindmux.ai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-medium text-primary hover:text-primary-hover"
+                  >
+                    {" "}
+                    MindMux.ai
+                  </a>
+                  , previously co-founded SegmentFault (Sifou), and supported
+                  the team in open-sourcing
+                  <a
+                    href="https://answer.apache.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-medium text-primary hover:text-primary-hover"
+                  >
+                    {" "}
+                    Apache Answer
+                  </a>{" "}
+                  and
+                  <a
+                    href="https://projectbrain.md/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-medium text-primary hover:text-primary-hover"
+                  >
+                    {" "}
+                    ProjectBrain.md
+                  </a>
+                  . Sharing my home with two 🐱 cats, I post personal updates,
+                  project progress, and industry observations here — async
+                  conversations are always welcome.
+                </>
+              ) : (
+                <>
+                  <a
+                    href="https://mindmux.ai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-medium text-primary hover:text-primary-hover"
+                  >
+                    MindMux.ai
+                  </a>
+                  创始人兼 CEO，曾联合创办 SegmentFault 思否，支持团队开源了
+                  <a
+                    href="https://answer.apache.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-medium text-primary hover:text-primary-hover"
+                  >
+                    ApacheAnswer
+                  </a>
+                  与
+                  <a
+                    href="https://projectbrain.md/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-medium text-primary hover:text-primary-hover"
+                  >
+                    ProjectBrain.md
+                  </a>
+                  ，家有两只🐱星人，在这里会发一些个人动态、项目进展以及行业的观察，欢迎异步交流。
+                </>
+              )
+            }
           </p>
 
           {
             // only display if at least one social link is enabled
             SOCIALS.length > 0 && (
-              <div class="mt-6 flex max-sm:flex-col sm:items-center">
+              <div class="mt-6 flex max-sm:flex-col max-sm:items-center sm:items-center">
                 <div class="me-2 mb-1 text-label-14 whitespace-nowrap text-muted-fg sm:mb-0">
                   Social Links:
                 </div>

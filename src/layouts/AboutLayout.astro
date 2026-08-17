@@ -1,21 +1,21 @@
 ---
-import type { MarkdownLayoutProps } from "astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import Layout from "./Layout.astro";
+import { t } from "@/i18n";
 
-type Props = MarkdownLayoutProps<{ title: string }>;
+type Props = { title: string };
 
-const { frontmatter } = Astro.props;
+const { title } = Astro.props;
 ---
 
-<Layout title="About — 高阳Sunny">
+<Layout title={t.aboutTitle}>
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout">
     <section id="about" class="app-prose mb-28 max-w-app prose-img:border-0">
-      <h1 class="text-heading-40 font-bold">{frontmatter.title}</h1>
+      <h1 class="text-heading-40 font-bold">{title}</h1>
       <slot />
     </section>
   </main>

@@ -1,0 +1,13 @@
+---
+import AboutLayout from "@/layouts/AboutLayout.astro";
+import { SITE } from "@/config";
+import * as AboutZh from "@/data/about-zh.md";
+import * as AboutEn from "@/data/about-en.md";
+
+const about = SITE.locale === "en" ? AboutEn : AboutZh;
+const Content = about.Content;
+---
+
+<AboutLayout title={about.frontmatter.title}>
+  <Content />
+</AboutLayout>

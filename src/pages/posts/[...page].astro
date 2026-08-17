@@ -6,6 +6,7 @@ import Footer from "@/components/Footer.astro";
 import PostsGrouped from "@/components/PostsGrouped.astro";
 import { getBlogPosts } from "@/utils/getPosts";
 import getSortedPosts from "@/utils/getSortedPosts";
+import { t } from "@/i18n";
 
 // Rest route kept so the URL stays `/posts` — no pagination, all posts shown.
 export const getStaticPaths = () => [{ params: { page: undefined } }];
@@ -13,9 +14,9 @@ export const getStaticPaths = () => [{ params: { page: undefined } }];
 const posts = getSortedPosts(await getBlogPosts());
 ---
 
-<Layout title="Posts — 高阳Sunny">
+<Layout title={t.postsTitle}>
   <Header />
-  <Main pageTitle="文章" pageDesc="All the articles I've posted.">
+  <Main pageTitle={t.posts} pageDesc={t.postsDesc}>
     <div class="mt-6">
       <PostsGrouped {posts} />
     </div>
