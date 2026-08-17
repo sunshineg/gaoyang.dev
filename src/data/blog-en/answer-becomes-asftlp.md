@@ -1,50 +1,50 @@
 ---
-title: "Apache 软件基金会宣布 Apache Answer 为顶级项目"
+title: "The Apache Software Foundation Announces Apache Answer as a Top-Level Project"
 pubDatetime: 2025-01-28T02:30:00.000Z
-description: "Apache 软件基金会正式宣布 Apache Answer 已从 Apache 孵化器毕业，成为顶级项目（TLP）。 Apache Answer 是一个现代的开源问答平台，旨在帮助用户建立属于自己的知识库和社区。它让团队和社区能够以结构化和高效的方式协作创建、发现和分享知识。 Apache Answer 副总裁祁宁谈到：“Apache Answer 成为顶级项目标志着我们旅程中的一个重要里程碑，"
-author: "Gao Yang"
+description: "The Apache Software Foundation has officially announced that Apache Answer has graduated from the Apache Incubator to become a Top-Level Project (TLP). Apache Answer is a modern open-source Q&A platform that helps users build their own knowledge bases and communities, enabling teams and communities to create, discover, and share knowledge together in a structured and efficient way."
+author: "Sunny Gao"
 tags: ["apache", "apache-answer", "opensourcewin"]
 draft: false
 ogImage: "/images/posts/answer-becomes-asftlp/cover.png"
 ---
 
-Apache 软件基金会[正式宣布 Apache Answer 已从 Apache 孵化器毕业](https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects)，成为顶级项目（TLP）。
+The Apache Software Foundation has [officially announced that Apache Answer has graduated from the Apache Incubator](https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects) to become a Top-Level Project (TLP).
 
-Apache Answer 是一个现代的开源问答平台，旨在帮助用户建立属于自己的知识库和社区。它让团队和社区能够以结构化和高效的方式协作创建、发现和分享知识。
+Apache Answer is a modern open-source Q&A platform designed to help users build their own knowledge bases and communities. It enables teams and communities to create, discover, and share knowledge together in a structured and efficient way.
 
-Apache Answer 副总裁祁宁谈到：“Apache Answer 成为顶级项目标志着我们旅程中的一个重要里程碑，这一成就不仅反映了社区的开源协作精神，也体现了在提供知识管理和社区参与的问答平台解决方案上 Apache Answer 已经非常成熟。”
+"Apache Answer becoming a Top-Level Project marks an important milestone in our journey," said Ning Qi, Vice President of Apache Answer. "This achievement not only reflects the community's spirit of open-source collaboration, but also demonstrates that Apache Answer has matured as a Q&A platform solution for knowledge management and community engagement."
 
-Apache Answer 自 2022 年 10 月由 [SegmentFault 思否团队正式发布开源](https://segmentfault.com/a/1190000042672978)以来，在开源社区中获得了显著的关注，获得了超过 13,000 个 GitHub star 和超过 1,000 个 fork。该项目一直有着活跃的贡献者社区，他们共同解决了数百个 issue 并提交了 PR，展示了项目活力的同时也帮助项目本身打下了坚实的基础，从中也充分表现了开源协作的巨大力量。
+Since the SegmentFault team [open-sourced it in October 2022](https://segmentfault.com/a/1190000042672978), Apache Answer has gained significant attention in the open-source community, earning over 13,000 GitHub stars and more than 1,000 forks. The project has maintained an active contributor community that has collectively resolved hundreds of issues and submitted PRs — demonstrating the project's vitality, laying a solid foundation for the project itself, and showcasing the tremendous power of open-source collaboration.
 
-## **Apache Answer 的优势**
+## **The Strengths of Apache Answer**
 
-你可以使用 Apache Answer 高效地搭建一个问答平台，并用于产品技术问答、客户支持、用户交流等场景。
+With Apache Answer, you can efficiently set up a Q&A platform for product and technical Q&A, customer support, user communities, and more.
 
-### **简单直观的问答社区**
+### **A Simple, Intuitive Q&A Community**
 
-Apache Answer 为新手提供了直观的设置，并提供了详细的文档，使他们能够快速搭建并设置问答平台。其设计让用户可以轻松提问和回答，并已经做好了适配，用户可以通过移动端访问，获得和桌面端一样的优质体验。
+Apache Answer offers an intuitive setup for newcomers, backed by detailed documentation, so they can get a Q&A platform up and running quickly. Its design makes asking and answering questions effortless, and it's fully responsive — users get the same great experience on mobile as on desktop.
 
-### **高效的内容管理**
+### **Efficient Content Management**
 
-管理员可以使用标签将问题和内容进行归类，这样使内容管理变得轻松和高效。用户也可以使用搜索标签功能，快速找到与之对应的答案。通过关注标签，用户可以及时浏览到关注的内容，并按照所需要的展示方式进行排列。
+Administrators can use tags to organize questions and content, making content management easy and efficient. Users can also search by tag to quickly find the answers they need. By following tags, users can keep up with the content they care about and arrange it however they like.
 
-### **丰富的插件生态**
+### **A Rich Plugin Ecosystem**
 
-用户可以通过插件系统扩展功能，根据实际使用场景的需求定制 Apache Answer。这种灵活性可以帮助用户更容易的集成第三方系统，提高了适应性同时还可以进一步提高性能。
+Users can extend functionality through the plugin system, customizing Apache Answer to fit their actual use cases. This flexibility makes it easier to integrate third-party systems, improving adaptability while further boosting performance.
 
-### **趣味的用户激励体系**
+### **A Fun User Incentive System**
 
-Apache Answer 具有声望和徽章系统，用户通过贡献优质内容、采纳最佳答案和取得点赞投票来获得声望。这不仅有助于确保社区的问答内容质量，增强了内容可信度，并给予了用户在社区内乐趣和成就感。
+Apache Answer features a reputation and badge system, where users earn reputation by contributing quality content, accepting the best answers, and receiving upvotes. This not only helps ensure the quality of Q&A content and strengthens its credibility, but also gives users a sense of fun and accomplishment within the community.
 
-未来，随着开源社区的持续贡献，Apache Answer 将不断发展，引入更多新功能，并添加更多插件以扩展其能力的同时满足更多样化的用户需求。
+Going forward, with continued contributions from the open-source community, Apache Answer will keep evolving — introducing more new features and adding more plugins to expand its capabilities and meet an ever-wider range of user needs.
 
-## **Apache Answer 社区**
+## **The Apache Answer Community**
 
-在过去的几年里，Apache Answer 逐渐建立了一个充满活力的社区。
+Over the past few years, Apache Answer has gradually built a vibrant community.
 
-自首次发布以来，Apache Answer 已经发布了 29 个版本，超过 100K+ 次下载（来自 dockerhub）。我们与来自世界各地的 78 位代码贡献者和 162 位志愿者合作，共收到 323 个 PR。Apache Answer 还被翻译成 15 种不同的语言。
+Since its first release, Apache Answer has shipped 29 releases and surpassed 100K+ downloads (from Docker Hub). We've worked with 78 code contributors and 162 volunteers from around the world, receiving 323 PRs in total. Apache Answer has also been translated into 15 different languages.
 
-Apache Answer 项目的 PMC 成员如下，感谢他们的重大贡献：
+The PMC members of the Apache Answer project are listed below — thank you for your significant contributions:
 
 - Christofer Dutz
 - Justin Mclean
@@ -61,16 +61,16 @@ Apache Answer 项目的 PMC 成员如下，感谢他们的重大贡献：
 - Shuailing Li
 - Yubin Ren
 
-您可以在此查看所有 Answer 的贡献者: [https://answer.apache.org/community/team](https://answer.apache.org/community/team)
+You can see all Answer contributors here: [https://answer.apache.org/community/team](https://answer.apache.org/community/team)
 
-## **加入 Apache Answer 社区**
+## **Join the Apache Answer Community**
 
-Apache Answer 的力量来自其社区中才华横溢的贡献者。在我们庆祝这一时刻的同时，我们也邀请更多的贡献者加入我们的 Apache 旅程。如果您对这个项目感兴趣，请查看并加入我们。
+The strength of Apache Answer comes from the talented contributors in its community. As we celebrate this moment, we also invite more contributors to join us on our Apache journey. If you're interested in the project, come take a look and join us.
 
-- 访问 Answer 的官方网站：[http://answer.apache.org/](http://answer.apache.org/)
-- 探索并贡献我们的 GitHub：[https://github.com/apache/answer](https://github.com/apache/answer)
-- 查看我们的文档：[https://answer.apache.org/docs](https://answer.apache.org/docs)
-- 加入我们的官方社区：[https://meta.answer.dev/](https://meta.answer.dev/)
-- 在 Discord 上与我们见面：[https://discord.gg/c537sFxu](https://discord.gg/c537sFxu)
+- Visit Answer's official website: [http://answer.apache.org/](http://answer.apache.org/)
+- Explore and contribute on our GitHub: [https://github.com/apache/answer](https://github.com/apache/answer)
+- Check out our documentation: [https://answer.apache.org/docs](https://answer.apache.org/docs)
+- Join our official community: [https://meta.answer.dev/](https://meta.answer.dev/)
+- Meet us on Discord: [https://discord.gg/c537sFxu](https://discord.gg/c537sFxu)
 
-Apache Answer 软件根据 Apache 许可证 v2.0 发布，并由一个自选的活跃贡献者团队监督。项目管理委员会（PMC）指导项目的日常运营，包括社区发展和产品发布。
+Apache Answer software is released under the Apache License v2.0 and is overseen by a self-selected team of active contributors. The Project Management Committee (PMC) guides the project's day-to-day operations, including community development and product releases.

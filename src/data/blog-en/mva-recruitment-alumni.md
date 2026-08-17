@@ -1,71 +1,71 @@
 ---
-title: "微软创投加速器第五期招募启动 - 来和SegmentFault 成为加速器校友吧"
+title: "Microsoft Ventures Accelerator Opens Batch 5 Applications — Come Be Our Accelerator Alumni"
 pubDatetime: 2014-04-11T02:30:00.000Z
-description: "微软创投加速器第五期招募启动，各位技术创业的基友们抓住机会申请吧 就在昨天， 2014年4月10日，微软创投加速器宣布正式启动第五期初创企业团队招募，TMT 领域的初创团队即日起即可开始在线申请报名。成功入选的初创企业团队将于2014年7月中旬正式入驻位于北京市中关村微软亚太研发大厦内部的办公空间，在接下来的6个月中，除了你能在高大上的微软加速器办公，还会得到很多附加服务，很多内部私密的培训课程、"
-author: "Gao Yang"
-tags: ["Microsoft", "startup"]
+description: "Microsoft Ventures Accelerator has opened applications for its fifth batch — fellow tech founders, seize the opportunity and apply! Just yesterday, on April 10, 2014, Microsoft Ventures Accelerator officially kicked off recruitment for its fifth batch of startups. As a Batch 4 alumnus, here's our experience at SegmentFault — and why you should apply."
+author: "Sunny Gao"
+tags: ["microsoft", "startup"]
 draft: false
 ---
 
-### **微软创投加速器第五期招募启动，各位技术创业的基友们抓住机会申请吧**
+### **Microsoft Ventures Accelerator has opened Batch 5 applications — fellow tech founders, seize the opportunity and apply!**
 
-就在昨天， 2014年4月10日，微软创投加速器宣布正式启动第五期初创企业团队招募，TMT 领域的初创团队即日起即可开始在线申请报名。成功入选的初创企业团队将于2014年7月中旬正式入驻位于北京市中关村微软亚太研发大厦内部的办公空间，在接下来的6个月中，除了你能在高大上的微软加速器办公，还会得到很多附加服务，很多内部私密的培训课程、融资对接等等。同时，从即日起，入选的初创团队还有机会通过微软创投加速器的全球资源，进入微软在美国，印度，以色列等其他国家的加速器，这对于中国初创团队走向世界无疑提供了极大便利。
+Just yesterday, on April 10, 2014, Microsoft Ventures Accelerator officially announced the start of recruitment for its fifth batch of startups. TMT (technology, media, telecom) startups can apply online starting today. Selected teams will move into the office space inside Microsoft's Asia-Pacific R&D building in Zhongguancun, Beijing in mid-July 2014. Over the following six months, beyond working out of the fancy Microsoft accelerator offices, you'll get plenty of additional services — lots of internal, behind-closed-doors training sessions, investor matchmaking, and more. Starting with this batch, selected startups will also have the chance, through Microsoft Ventures Accelerator's global network, to join Microsoft accelerators in the US, India, Israel, and other countries — an enormous convenience for Chinese startups looking to go global.
 
-在第五期初创团队招募和遴选期间，微软创投全球总经理Rahul Sood也将于4月底亲临中国，与初创企业进行面对面的亲密接触。作为Voodoo个人电脑的创始人以及众多其他创业项目的发起人，他将与创业者分享自身创业的传奇故事和宝贵经验，并将作为创业导师为初创团队指点迷津。此外，他还将分享更多关于微软创投加速器的全球部署和未来规划的详细信息。
+During the Batch 5 recruitment and selection period, Rahul Sood — Global General Manager of Microsoft Ventures — will visit China in late April to meet startups face to face. As the founder of VoodooPC and many other ventures, he'll share his legendary entrepreneurial story and hard-won experience, and serve as a mentor offering guidance to startup teams. He'll also share more details about Microsoft Ventures Accelerator's global footprint and future plans.
 
 ![](/images/posts/mva-recruitment-alumni/img-1.png)
 
-这是我们四期加速器企业创始人的合影，竟然有机会也登上了纽约时代广场... 抢位比较好，中间那个穿绿色T恤的就是哥了，挨着张亚勤大大...下面放个大图
+This is a group photo of us — the founders of the Batch 4 accelerator companies. It somehow ended up on a screen in Times Square, New York... I grabbed a good spot: the guy in the green T-shirt in the middle is yours truly, right next to the great Ya-Qin Zhang. Here's a bigger version:
 
 ![](/images/posts/mva-recruitment-alumni/img-2.png)
 
-### **SegmentFault 的自身体验**
+### **SegmentFault's own experience**
 
-2013年底，偶然的机会接触到微软创投加速器第四期的招募计划，最后SegmentFault 突破重围加入了加速器第四期，成为了加速器校友一员。转眼间，已经过去了4个多月了，当时我们刚刚申请加速器的时候，才只有我和@joyqi 、@fenbox 3个人的一个小团队，现在我们已经发展到差不多10人了，北京加速器分部也有几个新的同事入职。
+At the end of 2013, we happened to come across Microsoft Ventures Accelerator's Batch 4 recruitment. In the end, SegmentFault fought its way through the competition and joined Batch 4, becoming an accelerator alumnus. In the blink of an eye, more than four months have passed. When we first applied, we were a tiny team of just three — me, @joyqi, and @fenbox. Now we've grown to nearly ten people, and a few new colleagues have joined our Beijing office at the accelerator.
 
-在刚刚入选加速器发布会当天，得到微软加速器的背书和认可，我们得到了很多投资机构的关注，在很短的时间内SegmentFault 完成了来自IDG资本 以及 浙报下传媒梦工场 的数百万的天使投资。
+On the very day of the announcement event for our batch, backed by the endorsement and recognition of the Microsoft accelerator, we drew attention from many investment institutions. In a very short time, SegmentFault closed an angel round of several million RMB from IDG Capital and Media DreamWorks (under Zhejiang Daily Media Group).
 
-微软加速器每周都会组织 1-2次的针对内部的专业分享会，能涨很多新姿势，而且会有定期的Founders 聚会，就是几期的校友都会聚在一块交流经验、心得等等
+The Microsoft accelerator organizes one or two professional internal sharing sessions every week — you pick up a lot of new tricks — and there are regular founders' gatherings where alumni from every batch get together to swap experiences and lessons learned.
 
-我们几个合伙人，作为典型的程序员创业者，深知创业的艰辛。这几个月跟微软创投加速器接触下来，一个是成长特别多，再一个就是感觉微软做的这件事情真是太酷了，改变了我自己原先很多对于微软这个“大而重”的巨头的看法，加速器项目是真正公益的在帮助那些改变世界的初创公司，实现他们的梦想。
+As typical programmer-founders, my co-founders and I know firsthand how hard entrepreneurship is. After these few months with Microsoft Ventures Accelerator, two things stand out: first, we've grown tremendously; second, what Microsoft is doing here is genuinely cool. It changed a lot of my preconceptions about Microsoft as a "big and heavy" giant. The accelerator program is truly, charitably helping startups that want to change the world realize their dreams.
 
-- 进入加速器，以前你找投资人，现在是投资人天天找你 -，-
-- 软硬件服务，高大上办公室，专业的内部分享机会，对接各种合作资源
-- 庞大的校友体系，校友企业里面很多已经转身成土豪了...
+- After joining the accelerator, you no longer chase investors — investors chase you every day -,-
+- Hardware and software perks, a fancy office, professional internal sharing sessions, connections to all kinds of resources
+- A huge alumni network — many alumni companies have already made it big...
 
-我之前的一篇文章希望对想申请加速器的同学有帮助 **《**[**SegmentFault 成功入选微软创投加速器第四期，及背后的故事**](http://blog.segmentfault.com/sunny/1190000000380703)**》**
+For those thinking about applying, I hope my earlier post helps: **"[SegmentFault Got Into Microsoft Ventures Accelerator Batch 4 — and the Story Behind It](http://blog.segmentfault.com/sunny/1190000000380703)"**
 
-接下来进入，装逼晒图时间段，哈哈哈
+And now, time for the humble-brag photo dump. Hahaha.
 
 ![](/images/posts/mva-recruitment-alumni/img-3.png)
 
-大家好，这是摆拍的... 办公环境确实高大上
+Hello everyone — yes, this one was staged... but the office really is that fancy.
 
 ![](/images/posts/mva-recruitment-alumni/img-4.png)
 
-跟加速器CTO 无所不能的强哥，交流心得
+Exchanging notes with the accelerator's CTO, the omnipotent Qiang Ge.
 
 ![](/images/posts/mva-recruitment-alumni/img-5.png)
 
-与 微软开发者工具及平台事业部全球区域总经理Joe Wilson，一起交流中国开发者生态！
+Discussing China's developer ecosystem with Joe Wilson, General Manager of Worldwide Regional Operations for Microsoft's Developer Tools & Platform division!
 
-### **微软创投加速器是什么？**
+### **What is Microsoft Ventures Accelerator?**
 
-微软创投加速器（以前叫做“微软云加速器”）是2012年微软公司在中国启动的首个创业加速器。微软创投加速器旨在深入中国的创业生态链，鼓励更多的创业者使用微软云计算平台进行技术开发及实现创新；同时为企业提供多方位的创业支持资源，以帮助创业者实现梦想。除中国外，微软在以色列、印度及美国西雅图也在同一时间启动了加速器计划。
+Microsoft Ventures Accelerator (formerly known as the "Microsoft Cloud Accelerator") is the first startup accelerator Microsoft launched in China, in 2012. Microsoft Ventures Accelerator aims to go deep into China's startup ecosystem, encouraging more entrepreneurs to build and innovate on Microsoft's cloud platform, while providing companies with all-around startup support resources to help entrepreneurs realize their dreams. Alongside China, Microsoft launched accelerator programs in Israel, India, and Seattle, USA at the same time.
 
 ![](/images/posts/mva-recruitment-alumni/img-6.png)
 
-创业企业申请后经选择进入加速器，将可以得到当期期间内（4-6个月），微软免费提供的，位于北京市中关村微软亚太研发大厦内部的加速器办公空间，并得到由思想领袖、行业专家及技术专家组成的导师团的扶植与指导，同时获得多方面培训、融资机会对接、及多种创业资源。每一个入选的创业公司还将得到价值6万美金的Windows Azure云服务。
+Startups that apply and are selected into the accelerator receive, for the duration of the batch (4–6 months), free office space provided by Microsoft inside its Asia-Pacific R&D building in Zhongguancun, Beijing; support and guidance from a mentor group made up of thought leaders, industry experts, and technical experts; as well as training in many areas, investor matchmaking, and various startup resources. Every selected company also receives USD 60,000 worth of Windows Azure cloud services.
 
-截至目前，微软创投加速器已经成功孵化了三期创业项目，共47家创业企业，有超过九成的初创企业得到了市场的资金支持！我们四期供19家企业，也拼命加速中ing～
+As of today, Microsoft Ventures Accelerator has successfully incubated three batches — 47 startups in total — and over 90% of them have secured market funding! Our Batch 4 has 19 companies, all accelerating away as hard as we can~
 
-### **微软创投与微软创投加速器是什么关系？**
+### **What's the relationship between Microsoft Ventures and Microsoft Ventures Accelerator?**
 
-[微软创投](https://m12.vc/who-we-are/)是一个全球性举措，提供工具、资源和专业知识，帮助创业者酝酿、建立和发展他们的初创企业。以全方位视角，与创业生态系统中处在每个成熟阶段的创业者展开合作。该计划其中包括Bizspark 社区项目计划、加速器（微软创投加速器）和种子基金。
+[Microsoft Ventures](https://m12.vc/who-we-are/) is a global initiative providing tools, resources, and expertise to help entrepreneurs conceive, build, and grow their startups. It takes a full-spectrum view, working with entrepreneurs at every stage of maturity in the startup ecosystem. The initiative includes the BizSpark community program, accelerators (Microsoft Ventures Accelerator), and seed funds.
 
-#### **最重要的一点是，微软这个创投加速器的项目是非常公益和开放的，完全免费，且不占企业的任何股份，可以感受到他们是真正的在打造一个关于创业者产业链上的生态系统！这次真是大大的点赞啊！亲身体验感受！**
+#### **The most important point: Microsoft's accelerator program is genuinely charitable and open — completely free, and it takes zero equity from companies. You can feel that they're truly building an ecosystem around the startup industry chain! Huge kudos this time — I'm speaking from firsthand experience!**
 
-> 补充：
+> P.S.
 >
-> 凭借自身强大的技术实力和完善的创业扶植体系资源，微软创投加速器自2012年7月在中国启动以来，已成功为66家初创企业提供了全方位的创业支持，其中超过90%的初创企业均获得不同程度的融资，充分代表了投资机构对于微软创投加速器实力的认可。初创企业在6个月的加速周期之后在技术实力、团队建设、市场营销、融资能力等领域均有大幅提升，很多企业在培训期间在市场和用户规模等领域迅速成长为业界领先，并获得不同程度的业绩增长，最高达到惊人的17倍。  
-> 微软创投加速器中国驻企执行官高欣欣表示：“国内的创业氛围热烈，创业生态体系越来越成熟和完善。我们很高兴地看到微软创投加速器的扶植企业所取得的，激动人心的健康而快速的发展。微软创投加速器一直以来，都不遗余力地整合资源，根据创业团队的需要，为创业企业在完善产品和服务，“找人，找钱，找市场，找用户”等多方面提供帮助。同时，除了坚持提供免费资源和不从入选团队中获取任何股份的承诺以外，微软创投加速器的入选团队还有可能进入微软在美国，欧洲及世界多个国家的加速器，为创业企业进入国际市场提供最大便利。我们期待具有创新精神和执行能力的杰出团队加入我们，与我们一起为梦想而努力。”
+> With its strong technical capabilities and comprehensive startup support system, Microsoft Ventures Accelerator has provided all-around support to 66 startups since launching in China in July 2012. Over 90% of them have obtained funding to varying degrees — a full vote of confidence from investment institutions in the accelerator's strength. After the six-month acceleration period, startups show major improvement in technical capability, team building, marketing, and fundraising ability; many rapidly grow into industry leaders in market and user scale during the program itself, achieving business growth of varying degrees — up to a staggering 17x.  
+> Helen Gao, Entrepreneur-in-Residence of Microsoft Ventures Accelerator China, said: "The entrepreneurial atmosphere in China is vibrant, and the startup ecosystem is maturing and improving. We're delighted to see the exciting, healthy, and rapid growth achieved by the companies supported by Microsoft Ventures Accelerator. Microsoft Ventures Accelerator has always spared no effort in integrating resources to help startups improve their products and services and with 'finding people, finding money, finding markets, and finding users,' according to each team's needs. Beyond our standing commitment to free resources and zero equity from selected teams, companies selected for Microsoft Ventures Accelerator may also join Microsoft accelerators in the US, Europe, and multiple countries around the world, providing maximum convenience for startups entering international markets. We look forward to outstanding teams with an innovative spirit and execution ability joining us to work toward our dreams together."
