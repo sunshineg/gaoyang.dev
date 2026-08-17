@@ -5,7 +5,9 @@ title: "About"
 <div align="center">
   <img src="/images/avatar.webp" alt="Sunny Gao" style="width: 420px; object-fit: cover; margin-bottom: 20px; border-radius: 8px;" />
 
-## 👨‍💻 Hi there, I'm Sunny Gao 👋
+## 👨‍💻 Hi there, I'm Sunny Gao (高阳) 👋
+
+My Chinese name is 高阳 GaoYang — in Chinese, the family name comes first. "Yang" represents sunlight and positive energy, while "Gao" means high. Together, my name evokes the image of the sun rising high. That's why I chose the English name Sunny.
 
 </div>
 
@@ -23,7 +25,7 @@ title: "About"
 
 - 🚀 **[MindMux.ai](https://mindmux.ai/):** Founder & CEO. Combining collective wisdom with AI to build a next-generation knowledge collaboration product.
 - 🧠 **[ProjectBrain.md](https://projectbrain.md/):** Initiator. Advocating the open-source knowledge management philosophy of "files as the brain", keeping knowledge in versionable Markdown.
-- ✨ **AI & Collective Wisdom:** Published the _OpenSource.Win Manifesto_, actively advocating the open-source spirit in the AI era.
+- ✨ **AI & Collective Wisdom:** Published the [_OpenSource.Win Manifesto_](https://opensource.win/), actively advocating the open-source spirit in the AI era.
 - 💡 **[Apache Answer](https://answer.apache.org/):** A Q&A platform that originated from the Sifou team and was open-sourced to help organizations build knowledge communities. It has successfully graduated from the Apache Software Foundation as a **Top-Level Project (TLP)**!
 - 🤝 **C14Z:** Founded Crazy GenerationZ (C14Z) in 2013, an organization connecting young entrepreneurs.
 - 🌍 **[SegmentFault (Sifou)](https://segmentfault.com):** As co-founder, built China's leading developer Q&A community, bringing together millions of Chinese developers.

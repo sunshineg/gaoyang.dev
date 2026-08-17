@@ -5,7 +5,7 @@ title: "关于我"
 <div align="center">
   <img src="/images/avatar.webp" alt="Sunny Gao (高阳)" style="width: 420px; object-fit: cover; margin-bottom: 20px; border-radius: 8px;" />
 
-## 👨‍💻 Hi there, I'm Sunny Gao (高阳) 👋
+## 👨‍💻 Hi there, I'm 高阳Sunny 👋
 
 </div>
 
@@ -23,7 +23,7 @@ title: "关于我"
 
 - 🚀 **[MindMux.ai](https://mindmux.ai/):** 创始人兼 CEO。致力于把群体智慧与 AI 结合，构建新一代知识协作产品。
 - 🧠 **[ProjectBrain.md](https://projectbrain.md/):** 发起人。倡导"文件即大脑"的开源知识管理理念，让知识沉淀在可版本化的 Markdown 中。
-- ✨ **AI 与群体智慧:** 发布了 _OpenSource.Win 宣言_，积极倡导在 AI 时代的开源精神。
+- ✨ **AI 与群体智慧:** 发布了 [_OpenSource.Win 宣言_](https://opensource.win/)，积极倡导在 AI 时代的开源精神。
 - 💡 **[Apache Answer](https://answer.apache.org/):** 发源于思否团队并开源的问答平台，致力于帮助组织构建知识社区。目前已作为**顶级项目 (TLP)** 从 Apache 软件基金会成功毕业！
 - 🤝 **C14Z 创之学社:** 于 2013 年发起了旨在连接年轻创业者的 Crazy GenerationZ (C14Z) 组织。
 - 🌍 **[SegmentFault (思否)](https://segmentfault.com):** 作为联合创始人，创立了中国领先的开发者问答社区，汇聚了数百万中文开发者。
