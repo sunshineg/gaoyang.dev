@@ -46,34 +46,20 @@ Apache Answer 具有声望和徽章系统，用户通过贡献优质内容、采
 
 Apache Answer 项目的 PMC 成员如下，感谢他们的重大贡献：
 
--   Christofer Dutz
-    
--   Justin Mclean
-    
--   Willem Ning Jiang
-    
--   Zili Chen
-    
--   Anne Zhu
-    
--   Enxin Xie
-    
--   Feng Dong
-    
--   Fengjun Lv
-    
--   Guangfu Yang
-    
--   Luffy
-    
--   Nadia Jiang
-    
--   Ning Qi
-    
--   Shuailing Li
-    
--   Yubin Ren
-    
+- Christofer Dutz
+- Justin Mclean
+- Willem Ning Jiang
+- Zili Chen
+- Anne Zhu
+- Enxin Xie
+- Feng Dong
+- Fengjun Lv
+- Guangfu Yang
+- Luffy
+- Nadia Jiang
+- Ning Qi
+- Shuailing Li
+- Yubin Ren
 
 您可以在此查看所有 Answer 的贡献者: [https://answer.apache.org/community/team](https://answer.apache.org/community/team)
 
@@ -81,15 +67,10 @@ Apache Answer 项目的 PMC 成员如下，感谢他们的重大贡献：
 
 Apache Answer 的力量来自其社区中才华横溢的贡献者。在我们庆祝这一时刻的同时，我们也邀请更多的贡献者加入我们的 Apache 旅程。如果您对这个项目感兴趣，请查看并加入我们。
 
--   访问 Answer 的官方网站：[http://answer.apache.org/](http://answer.apache.org/)
-    
--   探索并贡献我们的 GitHub：[https://github.com/apache/answer](https://github.com/apache/answer)
-    
--   查看我们的文档：[https://answer.apache.org/docs](https://answer.apache.org/docs)
-    
--   加入我们的官方社区：[https://meta.answer.dev/](https://meta.answer.dev/)
-    
--   在 Discord 上与我们见面：[https://discord.gg/c537sFxu](https://discord.gg/c537sFxu)
-    
+- 访问 Answer 的官方网站：[http://answer.apache.org/](http://answer.apache.org/)
+- 探索并贡献我们的 GitHub：[https://github.com/apache/answer](https://github.com/apache/answer)
+- 查看我们的文档：[https://answer.apache.org/docs](https://answer.apache.org/docs)
+- 加入我们的官方社区：[https://meta.answer.dev/](https://meta.answer.dev/)
+- 在 Discord 上与我们见面：[https://discord.gg/c537sFxu](https://discord.gg/c537sFxu)
 
 Apache Answer 软件根据 Apache 许可证 v2.0 发布，并由一个自选的活跃贡献者团队监督。项目管理委员会（PMC）指导项目的日常运营，包括社区发展和产品发布。
