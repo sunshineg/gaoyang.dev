@@ -1,7 +1,8 @@
 import type { APIRoute } from "astro";
 import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import getSortedPosts from "@/utils/getSortedPosts";
 import { generateOgImageForPost } from "@/utils/generateOgImages";
-import { getPosts } from "@/utils/hashnode";
 import { SITE } from "@/config";
 
 export async function getStaticPaths() {
@@ -9,10 +10,10 @@ export async function getStaticPaths() {
     return [];
   }
 
-  const posts = await getPosts();
+  const posts = getSortedPosts(await getCollection("blog"));
 
-  return posts.map((post: any) => ({
-    params: { slug: post.slug },
+  return posts.map(post => ({
+    params: { slug: post.id },
     props: post,
   }));
 }

@@ -1,8 +1,8 @@
 export const SITE = {
   website: "https://gaoyang.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  author: "高阳Sunny",
+  profile: "https://github.com/sunshineg",
+  desc: "高阳Sunny 的个人博客，记录创业、开源与产品思考",
   title: "Hello World: Re-Act",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -14,10 +14,10 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/sunshineg/gaoyang.dev/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Bangkok", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Shanghai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;

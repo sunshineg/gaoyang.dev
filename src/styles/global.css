@@ -1,6 +1,25 @@
 @import "tailwindcss";
 @import "./typography.css";
 
+/* Google Sans Code is self-hosted so the build does not depend on
+   fetching fonts from Google at build time. Latin subset only; CJK
+   and other scripts fall through to the system font stack below. */
+@font-face {
+  font-family: "Google Sans Code";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/google-sans-code-400-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Google Sans Code";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/google-sans-code-700-latin.woff2") format("woff2");
+}
+
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
@@ -21,7 +40,8 @@ html[data-theme="dark"] {
 }
 
 @theme inline {
-  --font-app: var(--font-google-sans-code);
+  --font-app: "Google Sans Code", ui-monospace, SFMono-Regular, Menlo, Consolas,
+    "Liberation Mono", monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);

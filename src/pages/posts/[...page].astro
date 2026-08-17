@@ -6,16 +6,16 @@ import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Card from "@/components/Card.astro";
 import Pagination from "@/components/Pagination.astro";
-import { getPosts, getPublication } from "@/utils/hashnode";
+import { getCollection } from "astro:content";
+import getSortedPosts from "@/utils/getSortedPosts";
 import { SITE } from "@/config";
 
 export const getStaticPaths = (async ({ paginate }) => {
-  const posts = await getPosts(); // Default is 50, which is the max
+  const posts = getSortedPosts(await getCollection("blog"));
   return paginate(posts, { pageSize: SITE.postPerPage });
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
-const publication = await getPublication();
 ---
 
 <Layout title="Posts — 高阳Sunny">

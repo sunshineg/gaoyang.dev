@@ -9,17 +9,21 @@ import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
-import { getPublication, getPosts } from "@/utils/hashnode";
+import { getCollection } from "astro:content";
+import getSortedPosts from "@/utils/getSortedPosts";
 import type { CollectionEntry } from "astro:content";
 
-const publication = await getPublication();
-const posts = await getPosts(SITE.postPerIndex);
+const posts = getSortedPosts(await getCollection("blog"));
 
-const recentPosts = posts;
-const featuredPosts: CollectionEntry<"blog">[] = []; // Assuming no featured field in simple hashnode setup
+const featuredPosts: CollectionEntry<"blog">[] = posts.filter(
+  post => post.data.featured
+);
+const recentPosts = posts.filter(
+  post => !featuredPosts.some(featured => featured.id === post.id)
+);
 ---
 
-<Layout title="I’m 高阳Sunny — Hello World: Re-Act" description={publication.descriptionSEO || "Gao Yang's Blog"}>
+<Layout title="I’m 高阳Sunny — Hello World: Re-Act" description={SITE.desc}>
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
