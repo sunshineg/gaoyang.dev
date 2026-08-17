@@ -30,6 +30,25 @@ To deploy this project using Cloudflare Pages:
 5. Save and Deploy!
 6. After deployment, navigate to the **Custom Domains** tab in your Pages project settings to bind `gaoyang.dev`.
 
+## 🌍 English Site (sunnygao.com)
+
+The same repository also builds an English site, **[sunnygao.com](https://sunnygao.com)**, selected via the `PUBLIC_SITE_LOCALE` environment variable (`zh` | `en`, default `zh`):
+
+- `PUBLIC_SITE_LOCALE=zh` (default): site config points to `gaoyang.dev`, posts come from `src/data/blog/`.
+- `PUBLIC_SITE_LOCALE=en`: site config points to `sunnygao.com`, posts come from `src/data/blog-en/`.
+
+Deploy both sites from this one repository with **two Cloudflare Pages projects**:
+
+1. **Chinese site** (existing project):
+   - **Build command**: `pnpm build` (no extra env vars needed; locale defaults to `zh`)
+   - **Custom domain**: `gaoyang.dev`
+2. **English site** (create a second Pages project connected to the same repository):
+   - **Build command**: `pnpm build:en` — or keep `pnpm build` and set the environment variable `PUBLIC_SITE_LOCALE=en` under **Settings** -> **Environment variables**
+   - **Build output directory**: `dist`
+   - **Custom domain**: `sunnygao.com`
+
+Every push to the repo triggers both projects to build and deploy their respective sites. The theme stays identical across both; only the site config (domain, title, author, description) and the content collection differ.
+
 ## 🙏 Acknowledgements
 
 A huge thank you to [Sat Naing](https://satnaing.dev/) for creating the original [Astro Paper](https://github.com/satnaing/astro-paper) theme! This blog is heavily inspired by and built on top of that fantastic, minimal, responsive, and SEO-friendly Astro theme.
