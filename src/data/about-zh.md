@@ -32,6 +32,6 @@ title: "关于我"
 
 相较于即时通讯，我更倾向于**异步交流**。欢迎随时给我发一段简单的自我介绍！你可以通过领英、博客、Twitter 或是 GitHub 作为"社交名片"开启我们的对话。
 
-- [GitHub (sunshineg)](https://github.com/sunshineg)
-- [Twitter (@sunshineg)](https://twitter.com/sunshineg)
+- [GitHub (sunshineg)](https://github.com/sunshineg/sunshineg/discussions)
+- [Twitter (@gaoyangio)](https://x.com/gaoyangio)
 - [Telegram (@SunnyGao)](https://t.me/SunnyGao)

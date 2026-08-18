@@ -81,6 +81,18 @@ const isActive = (path: string) => {
               About
             </a>
           </li>
+          <li class="col-span-2">
+            <a
+              href={SITE.locale === "en"
+                ? "https://gaoyang.dev/"
+                : "https://sunnygao.com/"}
+              title={SITE.locale === "en"
+                ? "切换到中文博客"
+                : "Switch to English blog"}
+            >
+              {SITE.locale === "en" ? "中文" : "EN"}
+            </a>
+          </li>
           <li class="col-span-1 flex items-center justify-center">
             <LinkButton
               href="/search"

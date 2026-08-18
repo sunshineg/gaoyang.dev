@@ -5,6 +5,7 @@ import IconBrandX from "@/assets/icons/IconBrandX.svg";
 import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
+import { SITE } from "@/config";
 
 interface Social {
   name: string;
@@ -22,7 +23,10 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "X",
-    href: "https://x.com/gaoyangio",
+    href:
+      SITE.locale === "en"
+        ? "https://x.com/sunnyygao"
+        : "https://x.com/gaoyangio",
     linkTitle: `Sunny on X`,
     icon: IconBrandX,
   },

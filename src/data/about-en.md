@@ -34,6 +34,6 @@ My Chinese name is 高阳 GaoYang — in Chinese, the family name comes first. "
 
 Compared to instant messaging, I prefer **async communication**. Feel free to send me a short self-introduction anytime! You can kick off our conversation via LinkedIn, this blog, Twitter, or GitHub as your "social card".
 
-- [GitHub (sunshineg)](https://github.com/sunshineg)
-- [Twitter (@sunshineg)](https://twitter.com/sunshineg)
+- [GitHub (sunshineg)](https://github.com/sunshineg/sunshineg/discussions)
+- [Twitter (@sunnyygao)](https://x.com/sunnyygao)
 - [Telegram (@SunnyGao)](https://t.me/SunnyGao)
