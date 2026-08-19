@@ -1,57 +1,65 @@
-# 👨‍💻 Hi there, I'm 高阳Sunny 👋
+# 👨‍💻 Hi there, I'm 高阳 Sunny 👋
 
-Welcome to the source repository for my personal blog!
+Welcome to the source repository for my personal blog — [gaoyang.dev](https://gaoyang.dev)（中文）and [sunnygao.com](https://sunnygao.com)（English）.
 
-## 🌐 Live Site
+## 🌐 Live Sites
 
-Check it out at **[gaoyang.dev](https://gaoyang.dev)**
+| Site | Language | URL |
+|------|----------|-----|
+| gaoyang.dev | 中文 | [gaoyang.dev](https://gaoyang.dev) |
+| sunnygao.com | English | [sunnygao.com](https://sunnygao.com) |
 
 ## 📚 About This Blog
 
-This blog is built using a modern decoupled architecture:
+This blog is built on a **static-first** architecture — no external CMS, no runtime API calls, just Markdown + Astro + Cloudflare CDN.
 
-- **Frontend**: [Astro](https://astro.build/) - A blazingly fast web framework.
-- **Backend/CMS**: [Hashnode Headless CMS](https://hashnode.com/headless) - My blog posts are managed and served via Hashnode's GraphQL API.
-- **Hosting**: Deployed on [Cloudflare Pages](https://pages.cloudflare.com/) for optimal global performance.
+- **Framework**: [Astro 5](https://astro.build/) + [AstroPaper](https://github.com/satnaing/astro-paper) theme, restyled with the MindMux design system
+- **Content**: Blog posts are stored as Markdown files in the same repository (`src/data/blog/` for Chinese, `src/data/blog-en/` for English). The build is fully self-contained.
+- **Build & Hosting**: [Cloudflare Pages](https://pages.cloudflare.com/) with global CDN distribution — push to `main` triggers automatic build and deploy
+- **Search**: [Pagefind](https://pagefind.app/) — static search index generated at build time
+- **Syntax Highlighting**: [Shiki](https://shiki.style/) with custom transformers
+- **OG Images**: [Satori](https://github.com/vercel/satori) + @resvg/resvg-js — dynamically generated per post at build time
 
-Only the post content and metadata are fetched dynamically from Hashnode. The blog's title, descriptions, and other core layout settings are managed locally in this codebase to ensure complete customization of the design and UX.
+### One repo, two sites
 
-## 🚀 Deployment (Cloudflare Pages)
+Both sites share the same codebase and theme, differentiated only by the `PUBLIC_SITE_LOCALE` environment variable:
 
-To deploy this project using Cloudflare Pages:
+| `PUBLIC_SITE_LOCALE` | Site | Content Collection | Domain |
+|----------------------|------|--------------------|--------|
+| `zh` (default) | 中文博客 | `src/data/blog/` | gaoyang.dev |
+| `en` | English blog | `src/data/blog-en/` | sunnygao.com |
 
-1. Push this repository to GitHub.
-2. Log into the [Cloudflare Dashboard](https://dash.cloudflare.com) and go to **Workers & Pages** -> **Create application** -> **Pages** -> **Connect to Git**.
-3. Select this repository.
-4. Configure the build settings:
-   - **Framework preset**: Astro
-   - **Build command**: `npm run build`
-   - **Build output directory**: `dist`
-5. Save and Deploy!
-6. After deployment, navigate to the **Custom Domains** tab in your Pages project settings to bind `gaoyang.dev`.
+Two Cloudflare Pages projects connect to this single repository, each with its own locale environment variable. Every push to `main` triggers both sites to build and deploy independently.
 
-## 🌍 English Site (sunnygao.com)
+## 🛠️ Local Development
 
-The same repository also builds an English site, **[sunnygao.com](https://sunnygao.com)**, selected via the `PUBLIC_SITE_LOCALE` environment variable (`zh` | `en`, default `zh`):
+```bash
+pnpm install     # install dependencies
+pnpm dev         # start dev server (Chinese site by default)
+pnpm build       # build for production (Chinese)
+pnpm build:en    # build English site
+```
 
-- `PUBLIC_SITE_LOCALE=zh` (default): site config points to `gaoyang.dev`, posts come from `src/data/blog/`.
-- `PUBLIC_SITE_LOCALE=en`: site config points to `sunnygao.com`, posts come from `src/data/blog-en/`.
+## 🚀 Deployment
 
-Deploy both sites from this one repository with **two Cloudflare Pages projects**:
+Deployment is fully automated via Cloudflare Pages Git integration — no manual steps needed:
 
-1. **Chinese site** (existing project):
-   - **Build command**: `pnpm build` (no extra env vars needed; locale defaults to `zh`)
-   - **Custom domain**: `gaoyang.dev`
-2. **English site** (create a second Pages project connected to the same repository):
-   - **Build command**: `pnpm build:en` — or keep `pnpm build` and set the environment variable `PUBLIC_SITE_LOCALE=en` under **Settings** -> **Environment variables**
-   - **Build output directory**: `dist`
-   - **Custom domain**: `sunnygao.com`
+1. **Chinese site** — Pages project `gaoyang`, build command `pnpm build`, custom domain `gaoyang.dev`
+2. **English site** — Pages project `sunnygao`, build command `pnpm build`, env var `PUBLIC_SITE_LOCALE=en`, custom domain `sunnygao.com`
 
-Every push to the repo triggers both projects to build and deploy their respective sites. The theme stays identical across both; only the site config (domain, title, author, description) and the content collection differ.
+Push to `main` → both projects auto-build → live.
+
+## 📄 License
+
+This repository uses **dual licensing** (inspired by [steipete.me](https://github.com/steipete/steipete.me/blob/main/LICENSE)):
+
+- **Blog Posts & Documentation**: Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — share and adapt the content, even commercially, as long as appropriate credit is given.
+- **Code (Theme, Scripts, Configuration)**: Licensed under the [MIT License](./LICENSE) — see the [LICENSE](./LICENSE) file for full details.
 
 ## 🙏 Acknowledgements
 
-A huge thank you to [Sat Naing](https://satnaing.dev/) for creating the original [Astro Paper](https://github.com/satnaing/astro-paper) theme! This blog is heavily inspired by and built on top of that fantastic, minimal, responsive, and SEO-friendly Astro theme.
+- **[AstroPaper](https://github.com/satnaing/astro-paper)** by [Sat Naing](https://satnaing.dev/) — the minimal, responsive, SEO-friendly Astro theme this blog is built upon.
+- **[MindMux](https://mindmux.ai/)** — The content maintenance, iteration, and publishing of this blog are all powered by [MindMux](https://mindmux.ai/), an AI-native knowledge compiler and project brain that helps you compile a living project brain — capturing decisions, context, and knowledge into Markdown that evolves with your work. Built with MindMux.
 
 ---
 
