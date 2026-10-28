@@ -81,6 +81,18 @@ const isActive = (path: string) => {
               About
             </a>
           </li>
+          {
+            SITE.locale === "zh" && (
+              <li class="col-span-2">
+                <a
+                  href="/friends"
+                  class:list={{ "active-nav": isActive("/friends") }}
+                >
+                  友链
+                </a>
+              </li>
+            )
+          }
           <li class="col-span-2">
             <a
               href={SITE.locale === "en"

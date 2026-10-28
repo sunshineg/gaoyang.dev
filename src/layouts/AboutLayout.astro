@@ -5,12 +5,12 @@ import Breadcrumb from "@/components/Breadcrumb.astro";
 import Layout from "./Layout.astro";
 import { t } from "@/i18n";
 
-type Props = { title: string };
+type Props = { title: string; pageTitle?: string };
 
-const { title } = Astro.props;
+const { title, pageTitle = t.aboutTitle } = Astro.props;
 ---
 
-<Layout title={t.aboutTitle}>
+<Layout title={pageTitle}>
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout">

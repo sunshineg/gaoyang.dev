@@ -1,0 +1,33 @@
+---
+import AboutLayout from "@/layouts/AboutLayout.astro";
+import { SITE } from "@/config";
+import { FRIENDS } from "@/data/friends";
+import { t } from "@/i18n";
+
+// Friends page only exists on the Chinese build.
+if (SITE.locale !== "zh") {
+  return new Response(null, { status: 404 });
+}
+---
+
+<AboutLayout title={t.friends} pageTitle={t.friendsTitle}>
+  <ul class="not-prose grid gap-4 p-0 sm:grid-cols-2">
+    {
+      FRIENDS.map(friend => (
+        <li class="list-none">
+          <a
+            href={friend.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="focus-outline group flex flex-col gap-1 rounded-lg border border-border p-4 transition-colors hover:border-accent"
+          >
+            <span class="font-semibold text-primary group-hover:text-accent">
+              {friend.name}
+            </span>
+            <span class="text-sm break-all text-secondary">{friend.url}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</AboutLayout>
